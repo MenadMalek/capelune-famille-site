@@ -170,3 +170,29 @@ button.danger:hover{background:#f0cbd4;color:#7b3544}
 .home-card .icon{box-shadow:0 4px 0 #dceade55}
 
 .home-note{color:#536559}
+
+
+/* Accueil apaisé et illustrations Capelune dessinées pour l’interface. */
+.home-header{background:rgba(255,250,243,.88)!important;border-bottom:1px solid #e8e6d8!important;backdrop-filter:blur(10px);padding-top:.9rem!important;padding-bottom:.9rem!important}
+.home-header .brand{gap:.8rem;color:#3f5949!important}
+.home-header .brand-mark{width:46px!important;height:46px!important;display:grid;place-items:center;border-radius:16px!important;background:#edf4e9!important;border:1px solid #dbe8d8!important;transform:none!important}
+.home-header .brand-mark svg{width:31px;height:31px;display:block}
+.brand-tagline{background:#f8edda!important;color:#5c6658!important;font-size:.82rem!important}
+.home-main{max-width:1040px;padding:1.6rem 1.25rem 3.5rem!important}
+.section-head{margin:0 0 1.15rem!important;align-items:center!important}
+.section-head h2{font-size:clamp(1.4rem,2.2vw,1.7rem)!important;font-weight:730!important;color:#435d4c!important}
+.section-head p{font-size:.95rem!important;color:#68766b!important}
+.home-grid{gap:1.15rem!important}
+.home-card{min-height:228px!important;padding:1.4rem!important;border-top-width:4px!important;border-radius:24px!important;background:linear-gradient(165deg,var(--card-wash),#fff 68%)!important;box-shadow:0 7px 22px #526b590d!important}
+.home-card:hover{box-shadow:0 12px 28px #526b5915!important}
+.home-card .icon{width:66px!important;height:66px!important;display:grid;place-items:center;border-radius:21px!important;background:#fffdf9!important;border:1px solid #f0eee4!important;box-shadow:0 5px 14px #526b590c!important}
+.home-card .icon svg{display:block;width:50px;height:50px}
+.home-card h3{margin:.85rem 0 .3rem!important;font-size:1.16rem!important;color:#405b4a!important}
+.home-card p{font-size:.96rem!important;line-height:1.55!important;color:#69766c!important}
+.home-card a{border-radius:999px!important;background:rgba(255,255,255,.68)!important;border-color:var(--card-color)!important;color:#4b6252!important;transition:background .18s ease,transform .18s ease!important}
+.home-card a:hover{background:#fff!important;text-decoration:none!important;transform:translateY(-1px)}
+.home-card a:focus-visible{outline:3px solid #77967f!important;outline-offset:3px}
+.home-note{max-width:100%;margin-top:1.35rem!important;padding:.9rem 1.1rem!important;background:#fff8eb!important;border:1px solid #eee5d3!important;border-radius:16px!important;color:#637064!important;font-size:.88rem!important}
+@media(max-width:720px){.home-main{padding:1.25rem 1rem 2.5rem!important}.home-card{min-height:210px!important}}
+@media(max-width:560px){.home-header .brand{font-size:1.05rem}.home-header .brand-mark{width:42px!important;height:42px!important}.home-header .brand-tagline{display:none}.section-head{margin-bottom:1rem!important}.section-head p{margin-top:.28rem!important}.home-grid{grid-template-columns:1fr!important;gap:.85rem!important}.home-card{min-height:0!important;padding:1.15rem!important}.home-card p{margin-bottom:1rem!important}.home-card .icon{width:58px!important;height:58px!important;border-radius:18px!important}.home-card .icon svg{width:45px;height:45px}}
+@media(prefers-reduced-motion:reduce){.home-card a{transition:none!important}}
