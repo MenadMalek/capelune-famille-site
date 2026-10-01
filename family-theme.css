@@ -231,3 +231,9 @@ body[data-family-tool] .stat{border-radius:17px!important}
 @media(max-width:720px){body[data-family-tool] .columns{grid-template-columns:1fr!important}body[data-family-tool] main{padding:1rem 1rem 2.5rem!important}}
 @media(max-width:560px){body[data-family-tool] header{padding:.85rem 1rem!important}body[data-family-tool] header h1{font-size:1.45rem!important;gap:.58rem}body[data-family-tool] .tool-title-icon{width:43px!important;height:43px!important;flex-basis:43px!important;border-radius:15px!important}body[data-family-tool] .tool-title-icon svg{width:31px;height:31px}body[data-family-tool] .panel{padding:1rem!important;border-radius:19px!important}body[data-family-tool] .stats{grid-template-columns:1fr!important}body[data-family-tool] .grid{grid-template-columns:1fr!important}}
 @media(prefers-reduced-motion:reduce){body[data-family-tool] *{scroll-behavior:auto!important;transition:none!important}}
+
+
+/* Planning : conserver assez de largeur pour ses deux panneaux de saisie. */
+body[data-family-tool] main>.columns{grid-template-columns:minmax(0,390px) minmax(0,1fr)!important}
+body[data-family-tool="planning"] main>.columns{grid-template-columns:minmax(0,1.65fr) minmax(320px,1fr)!important}
+@media(max-width:720px){body[data-family-tool] main>.columns{grid-template-columns:1fr!important}body[data-family-tool="planning"] .editor{grid-template-columns:1fr!important}}
