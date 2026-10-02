@@ -4,7 +4,7 @@
  const base=new URL('.',document.currentScript.src),data=window.CAPELUNE_PICTOGRAMS;
  const normalize=s=>String(s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase().replace(/_/g,' ');
  const dialog=document.createElement('dialog');dialog.className='eap-picto-dialog';dialog.id='eapPictoDialog';dialog.setAttribute('aria-labelledby','eapPictoTitle');
- dialog.innerHTML=`<h2 id="eapPictoTitle">Choisir un pictogramme</h2><p>Disponible sans Internet. Choisis une image pour l’étape en cours.</p><div class="eap-picto-filters"><label>Recherche<input id="eapPictoSearch" type="search" placeholder="Repas, école, famille…"></label><label>Catégorie<select id="eapPictoCategory"><option value="">Toutes les catégories</option></select></label><label>Personnage<select id="eapPictoGender"><option value="all">Tous les personnages</option><option value="boy">Garçon</option><option value="girl">Fille</option></select></label><label>Rendu<select id="eapPictoRender"><option value="color">Couleur</option><option value="bw">Noir et blanc</option></select></label></div><div class="eap-picto-status" id="eapPictoStatus" role="status" aria-live="polite"></div><div class="eap-picto-grid" id="eapPictoGrid"></div><div class="eap-picto-actions"><button class="eap-picto-online" id="eapPictoOnline" type="button">Mulberry</button><button id="eapPictoPrev" type="button">Précédent</button><span id="eapPictoPage"></span><button id="eapPictoNext" type="button">Suivant</button><button id="eapPictoAddSelected" type="button" hidden disabled>Ajouter les images sélectionnées</button><button id="eapPictoClose" type="button">Annuler</button></div>`;
+ dialog.innerHTML=`<h2 id="eapPictoTitle">Choisir un pictogramme</h2><p>Disponible sans Internet. Choisis une image pour l’étape en cours.</p><div class="eap-picto-filters"><label>Recherche<input id="eapPictoSearch" type="search" placeholder="Repas, école, famille…"></label><label>Catégorie<select id="eapPictoCategory"><option value="">Toutes les catégories</option></select></label><label>Personnage<select id="eapPictoGender"><option value="all">Tous les personnages</option><option value="boy">Garçon</option><option value="girl">Fille</option></select></label><label>Teinte de peau<select id="eapPictoSkin"><option value="all">Toutes les teintes</option><option value="light">Peau claire</option><option value="dark">Peau foncée</option></select></label><label>Rendu<select id="eapPictoRender"><option value="color">Couleur</option><option value="bw">Noir et blanc</option></select></label></div><div class="eap-picto-status" id="eapPictoStatus" role="status" aria-live="polite"></div><div class="eap-picto-grid" id="eapPictoGrid"></div><div class="eap-picto-actions"><button class="eap-picto-online" id="eapPictoOnline" type="button">Mulberry</button><button id="eapPictoPrev" type="button">Précédent</button><span id="eapPictoPage"></span><button id="eapPictoNext" type="button">Suivant</button><button id="eapPictoAddSelected" type="button" hidden disabled>Ajouter les images sélectionnées</button><button id="eapPictoClose" type="button">Annuler</button></div>`;
  document.body.append(dialog);
  const el=id=>dialog.querySelector('#eapPicto'+id);let page=0,options=null,token=0,busy=false,source='local',queryToken=0,searchTimer,multiMode=false;
  const selected=new Map(),MAX_SELECTED=12;
@@ -43,7 +43,7 @@ sources.append(local,el('Online'),both,multi);dialog.querySelector('p').after(so
   for(const [button,key] of [[local,'local'],[el('Online'),'mulberry'],[both,'both']])button.setAttribute('aria-pressed',String(value===key));
   const hideLocal=value==='mulberry';
   for(const item of [localHeading,el('Status'),el('Grid'),el('Prev'),el('Page'),el('Next')])item.hidden=hideLocal;
-  for(const key of ['Category','Gender','Render'])el(key).closest('label').hidden=hideLocal;
+  for(const key of ['Category','Gender','Skin','Render'])el(key).closest('label').hidden=hideLocal;
   onlineSection.hidden=value==='local';
   // Mulberry does not display the local grid: do not build 24 hidden image tiles before the search field can receive input.
   if(value!=='mulberry')render();
@@ -71,7 +71,11 @@ sources.append(local,el('Online'),both,multi);dialog.querySelector('p').after(so
  for(const c of data.categories){const group=document.createElement('optgroup');group.label=c.label_fr;for(const s of c.subcategories){const o=document.createElement('option');o.value=c.id+'/'+s.id;o.textContent=s.label_fr;group.append(o);}el('Category').append(group);}
  const records=data.pictograms.map(r=>({r,search:normalize([r.label_fr,r.slug,...r.keywords].join(' '))}));
  function variantFor(r){
-  const gender=el('Gender').value,render=el('Render').value;
+  const gender=el('Gender').value,skin=el('Skin').value,render=el('Render').value;
+  if(skin!=='all'){
+   const genders=gender==='all'?['boy','girl']:[gender];
+   return genders.map(g=>g+'_'+skin+'_'+render).find(key=>r.variants[key]);
+  }
   const keys=gender==='all'?['neutral_'+render,'boy_'+render,'girl_'+render]:[gender+'_'+render,'neutral_'+render];
   return keys.find(key=>r.variants[key]);
  }
@@ -114,13 +118,13 @@ sources.append(local,el('Online'),both,multi);dialog.querySelector('p').after(so
   finally{if(request===token)busy=false;updateMultiUI();}
  };
  el('Search').addEventListener('input',()=>{page=0;if(source!=='mulberry')render();});
- for(const key of ['Category','Gender','Render'])el(key).addEventListener('change',()=>{page=0;render();});
+ for(const key of ['Category','Gender','Skin','Render'])el(key).addEventListener('change',()=>{page=0;render();});
  el('Prev').onclick=()=>{page--;render();};el('Next').onclick=()=>{page++;render();};el('Close').onclick=()=>dialog.close();
  el('Online').onclick=()=>setSource('mulberry');
  el('Search').addEventListener('input',()=>{queryToken++;onlineGrid.replaceChildren();clearTimeout(searchTimer);if(source!=='local')searchTimer=setTimeout(searchOnline,350);});
  el('Search').addEventListener('keydown',event=>{if(event.key==='Enter'){event.preventDefault();searchOnline();}});
  dialog.addEventListener('keydown',event=>{if(event.key==='Escape'){event.preventDefault();event.stopPropagation();dialog.close();}});
  dialog.addEventListener('close',()=>{token++;queryToken++;clearTimeout(searchTimer);busy=false;options=null;selected.clear();multiMode=false;updateMultiUI();onlineGrid.replaceChildren();});
- window.CAPELUNE_PICTOGRAM_PICKER={open(config){token++;busy=false;options=config;page=0;multiMode=false;selected.clear();el('Search').value='';el('Category').value='';el('Gender').value='all';el('Render').value='color';updateMultiUI();if(!dialog.open)dialog.showModal();setSource('local');el('Search').focus();}};
+ window.CAPELUNE_PICTOGRAM_PICKER={open(config){token++;busy=false;options=config;page=0;multiMode=false;selected.clear();el('Search').value='';el('Category').value='';el('Gender').value='all';el('Skin').value='all';el('Render').value='color';updateMultiUI();if(!dialog.open)dialog.showModal();setSource('local');el('Search').focus();}};
 })();
 
