@@ -72,12 +72,16 @@ sources.append(local,el('Online'),both,multi);dialog.querySelector('p').after(so
  const records=data.pictograms.map(r=>({r,search:normalize([r.label_fr,r.slug,...r.keywords].join(' '))}));
  function variantFor(r){
   const gender=el('Gender').value,skin=el('Skin').value,render=el('Render').value;
+  const usable=key=>r.variants[key]&&r.variants[key].available!==false;
+  const original=Object.values(r.variants).find(v=>v.gender==='boy'||v.gender==='girl');
+  const originalGender=original?.gender;
   if(skin!=='all'){
-   const genders=gender==='all'?['boy','girl']:[gender];
-   return genders.map(g=>g+'_'+skin+'_'+render).find(key=>r.variants[key]);
+   const genders=gender==='all'?(originalGender?[originalGender,originalGender==='boy'?'girl':'boy']:['boy','girl']):[gender];
+   return genders.map(g=>g+'_'+skin+'_'+render).find(usable);
   }
-  const keys=gender==='all'?['neutral_'+render,'boy_'+render,'girl_'+render]:[gender+'_'+render,'neutral_'+render];
-  return keys.find(key=>r.variants[key]);
+  const genders=gender==='all'?(originalGender?[originalGender,originalGender==='boy'?'girl':'boy']:['boy','girl']):[gender];
+  const keys=(gender==='all'?['neutral_'+render]:[]).concat(genders.map(g=>g+'_'+render),['neutral_'+render]);
+  return keys.find(usable);
  }
  function render(){
   const words=normalize(el('Search').value).trim().split(/\s+/).filter(Boolean),category=el('Category').value;
