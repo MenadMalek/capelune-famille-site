@@ -18,6 +18,8 @@ async function present(images,width,height,filename,preview){
  const title=document.createElement('strong');title.textContent='Aperçu avant impression · '+images.length+' page'+(images.length>1?'s':'');
  const print=document.createElement('button');print.type='button';print.textContent='Imprimer';print.onclick=()=>window.print();
  const download=document.createElement('button');download.type='button';download.textContent='Télécharger le PDF';download.onclick=()=>{const url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=filename;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),60000)};
+ const shareFile=typeof File==='function'?new File([blob],filename,{type:'application/pdf'}):null;
+ if(shareFile&&typeof navigator.share==='function'&&typeof navigator.canShare==='function'&&navigator.canShare({files:[shareFile]})){const share=document.createElement('button');share.type='button';share.textContent='Partager le PDF';share.onclick=async()=>{try{await navigator.share({files:[shareFile]})}catch(error){if(error?.name!=='AbortError')alert('Le partage du PDF n’a pas abouti. Vous pouvez utiliser « Télécharger le PDF ».')}};bar.append(share)}
  const close=document.createElement('button');close.type='button';close.textContent='Fermer';close.onclick=()=>dialog.close();
  bar.append(title,print,download,close);dialog.append(bar);
  const urls=[];for(const [i,bytes] of images.entries()){const url=URL.createObjectURL(new Blob([await previewPage(bytes,width,height,paper)],{type:'image/jpeg'}));urls.push(url);const page=document.createElement('img');page.className='cap-preview-page';page.src=url;page.alt='Page '+(i+1)+' sur '+images.length;dialog.append(page)}
