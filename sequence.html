@@ -79,4 +79,4 @@ $('save').addEventListener('click',()=>{sync();if(!current.steps.length){say('Aj
 $('preview').addEventListener('click',async()=>{sync();render();const b=$('preview');b.disabled=true;try{await CapelunePdf.downloadSequence(structuredClone(current),true);say('Aperçu ouvert. Choisissez Imprimer ou Télécharger le PDF.')}catch{say('L’aperçu n’a pas pu être créé.')}finally{b.disabled=false}});
 $('pdf').addEventListener('click',async()=>{sync();render();const b=$('pdf');b.disabled=true;try{await CapelunePdf.downloadSequence(structuredClone(current));say('PDF téléchargé sur cet appareil.')}catch{say('Le PDF n’a pas pu être créé.')}finally{b.disabled=false}});
 sequences=load();showPending();render();
-</script><script src="pwa.js?v=48"></script></body></html>
+</script><script src="pwa.js?v=49"></script></body></html>
