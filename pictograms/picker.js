@@ -89,7 +89,7 @@ sources.append(local,el('Online'),both,multi);dialog.querySelector('p').after(so
  }
  function render(){
   const words=normalize(el('Search').value).trim().split(/\s+/).filter(Boolean),category=el('Category').value;
-  skinNote.hidden=skin==='all';
+  skinNote.hidden=el('Skin').value==='all';
   const list=records.filter(({r,search})=>variantFor(r)&&(!category||r.category+'/'+r.subcategory===category)&&words.every(w=>search.includes(w)));
   const pages=Math.max(1,Math.ceil(list.length/24));page=Math.min(page,pages-1);el('Grid').replaceChildren();
   el('Status').textContent=list.length?list.length+' pictogramme(s)':'Aucun résultat. Essaie un autre mot ou une autre catégorie.';
