@@ -2,3 +2,4 @@
 .eap-picto-dialog [hidden]{display:none!important}.eap-picto-dialog button[aria-pressed="true"]{background:#eee5f5;border:2px solid #67507d;font-weight:bold}.eap-picto-dialog h3{font-size:15px;margin:14px 0 8px}
 
 .eap-picto-dialog .eap-picto-tile[aria-pressed="true"]{border:2px solid #67507d;background:#f4eef8;position:relative}.eap-picto-dialog .eap-picto-tile[aria-pressed="true"]::after{content:"✓";position:absolute;top:4px;right:4px;display:grid;place-items:center;width:22px;height:22px;border-radius:50%;background:#67507d;color:#fff;font-weight:700}
+.eap-picto-skin-note{padding:8px 10px;margin:0 0 8px;border-radius:8px;background:#f5f8f4;color:#44554b;line-height:1.4}
