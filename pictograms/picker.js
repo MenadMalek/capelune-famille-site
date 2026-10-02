@@ -30,6 +30,7 @@ sources.append(local,el('Online'),both,multi);dialog.querySelector('p').after(so
   el('AddSelected').textContent=selected.size?'Ajouter '+selected.size+' image'+(selected.size>1?'s':''):'Choisis des images';
   dialog.querySelectorAll('.eap-picto-tile[data-selection-key]').forEach(button=>button.setAttribute('aria-pressed',String(selected.has(button.dataset.selectionKey))));
  }
+ function assetURL(r,variant){const path=r.variants[variant].path;if(path.startsWith('inline:'))return window.CAPELUNE_PICTOGRAMS.inlineAssets?.[path.slice(7)]||'';return new URL(path,base).href;}
  function selectionKey(item){return item.type==='mulberry'?'mulberry:'+item.id:'local:'+item.id+':'+item.variant}
  function toggleSelection(item){
   const key=selectionKey(item);
@@ -96,7 +97,7 @@ sources.append(local,el('Online'),both,multi);dialog.querySelector('p').after(so
   el('Page').textContent=(page+1)+' / '+pages;el('Prev').disabled=page===0;el('Next').disabled=page===pages-1;
   for(const {r} of list.slice(page*24,page*24+24)){
    const variant=variantFor(r);
-   const item={type:'educactif-local',id:r.id,variant,libraryVersion:data.version,label:r.label_fr,url:new URL(r.variants[variant].path,base).href};
+   const item={type:'educactif-local',id:r.id,variant,libraryVersion:data.version,label:r.label_fr,url:assetURL(r,variant)};
    const b=document.createElement('button');b.type='button';b.className='eap-picto-tile';b.dataset.id=r.id;b.dataset.selectionKey=selectionKey(item);b.setAttribute('aria-label',r.label_fr);
    const img=document.createElement('img');img.src=item.url;img.alt='';img.loading='lazy';
    const label=document.createElement('span');label.textContent=r.label_fr;b.append(img,label);b.setAttribute('aria-pressed','false');b.onclick=()=>multiMode?toggleSelection(item):choose(r,variant);el('Grid').append(b);
@@ -111,7 +112,7 @@ sources.append(local,el('Online'),both,multi);dialog.querySelector('p').after(so
   if(busy)return;busy=true;const request=token,callback=options?.onSelect;updateMultiUI();
   el('Status').textContent='Chargement de l’image…';
   try{
-   const visual=await readLocal({type:'educactif-local',id:r.id,variant,libraryVersion:data.version,label:r.label_fr,url:new URL(r.variants[variant].path,base).href});
+   const visual=await readLocal({type:'educactif-local',id:r.id,variant,libraryVersion:data.version,label:r.label_fr,url:assetURL(r,variant)});
    if(request!==token||!dialog.open)return;
    // Embed original PNG bytes: existing saves, duplicates and portable backups remain self-contained.
    callback(visual);dialog.close();
