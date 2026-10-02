@@ -58,12 +58,20 @@ async function mulberryData(result){
  const blob=await response.blob(),url=URL.createObjectURL(blob);
  try{const img=new Image();img.src=url;await img.decode();const canvas=document.createElement('canvas');canvas.width=256;canvas.height=256;const ctx=canvas.getContext('2d');ctx.fillStyle='#fff';ctx.fillRect(0,0,256,256);const scale=Math.min(240/img.naturalWidth,240/img.naturalHeight);ctx.drawImage(img,(256-img.naturalWidth*scale)/2,(256-img.naturalHeight*scale)/2,img.naturalWidth*scale,img.naturalHeight*scale);const data=canvas.toDataURL('image/jpeg',.82);if(data.length>400000)throw Error('Image trop volumineuse');return data}finally{URL.revokeObjectURL(url)}
 }
-window.CapelunePictograms={searchMulberry:search,labelFor:id=>catalog?.labels[String(id||'').replace(/^EN\//,'').replace(/\.svg$/i,'')]||null,open(onSelect,onError){
- window.CAPELUNE_PICTOGRAM_PICKER.open({searchOnline:search,onSelect:async result=>{
-  try{
-   if(result.type==='mulberry')onSelect({kind:'mulberry',id:result.id,label:result.label,data:await mulberryData(result)});
-   else if(result.type==='educactif-local'){if(result.url.length>400000)throw Error('Image trop volumineuse');onSelect({kind:'local',id:result.id,variant:result.variant,libraryVersion:result.libraryVersion,label:result.label,data:result.url})}
-  }catch{onError('Impossible de charger ce pictogramme. Réessayez ou choisissez une image locale.')}
- }});
- }};
+async function resolveVisual(result){
+ if(result.type==='mulberry')return {kind:'mulberry',id:result.id,label:result.label,data:await mulberryData(result)};
+ if(result.type==='educactif-local'){if(result.url.length>400000)throw Error('Image trop volumineuse');return {kind:'local',id:result.id,variant:result.variant,libraryVersion:result.libraryVersion,label:result.label,data:result.url}}
+ throw Error('Pictogramme inconnu');
+}
+window.CapelunePictograms={searchMulberry:search,labelFor:id=>catalog?.labels[String(id||'').replace(/^EN\//,'').replace(/\.svg$/i,'')]||null,open(onSelect,onError,onSelectMany){
+ window.CAPELUNE_PICTOGRAM_PICKER.open({searchOnline:search,
+  onSelect:async result=>{try{onSelect(await resolveVisual(result))}catch{onError('Impossible de charger ce pictogramme. Réessayez ou choisissez une image locale.')}},
+  onSelectMany:async results=>{
+   try{
+    const visuals=await Promise.all(results.map(resolveVisual));
+    if(onSelectMany)await onSelectMany(visuals);else visuals.forEach(onSelect);
+   }catch(error){onError('Impossible de charger les pictogrammes sélectionnés. Réessayez ou choisissez des images locales.');throw error}
+  }
+ });
+}};
 })();
