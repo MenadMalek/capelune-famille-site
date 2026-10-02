@@ -61,14 +61,14 @@ function themedFrame(ctx,theme,x,y,w,h,color){
  if(theme==='space'){softEllipse(ctx,x+w/2,y+h/2,w/2-18,h/2-40,'#fffdf7')}else{ctx.fillStyle=color;rounded(ctx,x,y,w,h,false,55);ctx.fillStyle='#fffdf7';rounded(ctx,x+18,y+55,w-36,h-75,false,40)}
 }
 async function downloadSoftTheme(sequence,preview){
- const landscape=sequence.layout==='horizontal',W=landscape?1754:1240,H=landscape?1240:1754,max=4,count=Math.max(1,Math.ceil(sequence.steps.length/max)),per=Math.max(1,Math.ceil(sequence.steps.length/count)),pageRenderer=FamilyPdfRenderer.createPage(W,H),ctx=pageRenderer.ctx,images=[],colors=['#d8efdf','#ffe4d8','#e8daf5','#d8ebfb'];
+ const landscape=sequence.layout==='horizontal',W=landscape?1754:1240,H=landscape?1240:1754,max=landscape?Math.max(1,sequence.steps.length):4,count=landscape?1:Math.max(1,Math.ceil(sequence.steps.length/max)),per=landscape?Math.max(1,sequence.steps.length):Math.max(1,Math.ceil(sequence.steps.length/count)),pageRenderer=FamilyPdfRenderer.createPage(W,H),ctx=pageRenderer.ctx,images=[],colors=['#d8efdf','#ffe4d8','#e8daf5','#d8ebfb'];
  for(let page=0;page<count;page++){
  ctx.fillStyle='#fffdf7';ctx.fillRect(0,0,W,H);sunshine(ctx,W-75,75);sequenceHeading(ctx,sequence,W,true);
- const shown=sequence.steps.slice(page*per,(page+1)*per),cols=landscape?Math.max(1,shown.length):Math.min(2,Math.max(1,shown.length)),rows=Math.max(1,Math.ceil(shown.length/cols)),rowH=Math.min(790,(H-390)/rows),gap=100,cardW=Math.min(600,(W-180-gap*(cols-1))/cols),cardH=Math.min(660,rowH-180),start=(W-(cols*cardW+(cols-1)*gap))/2;
+ const shown=sequence.steps.slice(page*per,(page+1)*per),cols=landscape?Math.min(6,Math.max(1,shown.length)):Math.min(2,Math.max(1,shown.length)),rows=Math.max(1,Math.ceil(shown.length/cols)),rowH=landscape?(H-300)/rows:Math.min(790,(H-390)/rows),gap=landscape?24:100,cardW=Math.min(600,(W-180-gap*(cols-1))/cols),cardH=landscape?Math.max(150,Math.min(660,rowH-70)):Math.min(660,rowH-180),start=(W-(cols*cardW+(cols-1)*gap))/2;
  for(const [i,step]of shown.entries()){
- const x=start+(i%cols)*(cardW+gap),y=310+Math.floor(i/cols)*rowH,n=page*per+i+1;themedFrame(ctx,sequence.theme,x,y,cardW,cardH,colors[(n-1)%4]);
+ const x=start+(i%cols)*(cardW+gap),y=(landscape?230:310)+Math.floor(i/cols)*rowH,n=page*per+i+1;themedFrame(ctx,sequence.theme,x,y,cardW,cardH,colors[(n-1)%4]);
  trainCircle(ctx,x+cardW/2,y+20,30,'#fffdf7');ctx.fillStyle=PAPER_INK;ctx.textAlign='center';ctx.font='bold 34px FamilyPrint';ctx.fillText(String(n),x+cardW/2,y+32);
- const vs=Math.min(260,cardW-80,cardH-340);if(step.visual)await drawVisual(ctx,step.visual,x+(cardW-vs)/2,y+78,vs,vs);
+ const vs=landscape?Math.max(48,Math.min(220,cardW-60,cardH*.42)):Math.min(260,cardW-80,cardH-340);if(step.visual)await drawVisual(ctx,step.visual,x+(cardW-vs)/2,y+78,vs,vs);
  ctx.textAlign='center';ctx.fillStyle=PAPER_INK;let fs=29;ctx.font='bold '+fs+'px FamilyPrint';let lines=wrap(ctx,step.label,cardW-65);while(lines.length>5&&fs>16){ctx.font='bold '+(--fs)+'px FamilyPrint';lines=wrap(ctx,step.label,cardW-65)}lines.slice(0,5).forEach((line,k)=>ctx.fillText(line,x+cardW/2,y+78+vs+42+k*32));trainCircle(ctx,x+cardW/2,y+cardH-48,22,'#fffdf7','#567b68');
  }
  ctx.textAlign='center';ctx.font='22px FamilyPrint';ctx.fillStyle=PAPER_INK;ctx.fillText('Mon rythme, mes étapes',W/2,H-60);ctx.font='19px FamilyPrint';ctx.fillText('Page '+(page+1)+' / '+count,W/2,H-28);images.push(pageRenderer.snapshot());
@@ -77,10 +77,10 @@ async function downloadSoftTheme(sequence,preview){
 }
 
 async function downloadHorizontal(sequence,preview){await FamilyPdfRenderer.ready();
- const W=1754,H=1240,maxPerPage=6,count=Math.max(1,Math.ceil(sequence.steps.length/maxPerPage)),perPage=Math.max(1,Math.ceil(sequence.steps.length/count)),rendererPage=FamilyPdfRenderer.createPage(W,H),canvas=rendererPage.canvas,ctx=rendererPage.ctx;const images=[];
+ const W=1754,H=1240,maxPerPage=Math.max(1,sequence.steps.length),count=1,perPage=maxPerPage,rendererPage=FamilyPdfRenderer.createPage(W,H),canvas=rendererPage.canvas,ctx=rendererPage.ctx;const images=[];
  for(let page=0;page<count;page++){pageBackground(ctx,W,H);sequenceHeading(ctx,sequence,W);
- const shown=sequence.steps.slice(page*perPage,(page+1)*perPage),columns=Math.max(1,shown.length),gap=24,cardW=(W-110-gap*(columns-1))/columns,visualSize=Math.min(300,cardW-60),cardH=Math.min(760,visualSize+460);
- for(const [i,step] of shown.entries()){const x=55+i*(cardW+gap),y=260;ctx.fillStyle=ACCENTS[i%ACCENTS.length];rounded(ctx,x,y,cardW,cardH);ctx.strokeStyle='#dce5e2';ctx.lineWidth=2;rounded(ctx,x,y,cardW,cardH,true);ctx.fillStyle='#446657';ctx.font='bold 35px FamilyPrint';ctx.fillText(String(page*perPage+i+1),x+20,y+55);if(step.visual)await drawVisual(ctx,step.visual,x+(cardW-visualSize)/2,y+95,visualSize,visualSize);ctx.fillStyle=PAPER_INK;ctx.textAlign='center';let fontSize=28;ctx.font='bold '+fontSize+'px FamilyPrint';let lines=wrap(ctx,step.label,cardW-35);while(lines.length>6&&fontSize>20){fontSize--;ctx.font='bold '+fontSize+'px FamilyPrint';lines=wrap(ctx,step.label,cardW-35)}lines.slice(0,6).forEach((line,k)=>ctx.fillText(line,x+cardW/2,y+95+visualSize+65+k*34));ctx.strokeStyle='#94b8a3';ctx.lineWidth=3;ctx.strokeRect(x+cardW/2-24,y+cardH-80,48,48);ctx.textAlign='left'}
+ const shown=sequence.steps.slice(page*perPage,(page+1)*perPage),columns=Math.min(6,Math.max(1,shown.length)),rows=Math.max(1,Math.ceil(shown.length/columns)),gap=18,rowH=(H-350)/rows,cardW=(W-110-gap*(columns-1))/columns,cardH=Math.max(145,Math.min(760,rowH-22)),visualSize=Math.max(48,Math.min(230,cardW-42,cardH*.43));
+ for(const [i,step] of shown.entries()){const x=55+(i%columns)*(cardW+gap),y=220+Math.floor(i/columns)*rowH;ctx.fillStyle=ACCENTS[i%ACCENTS.length];rounded(ctx,x,y,cardW,cardH);ctx.strokeStyle='#dce5e2';ctx.lineWidth=2;rounded(ctx,x,y,cardW,cardH,true);ctx.fillStyle='#446657';ctx.font='bold 35px FamilyPrint';ctx.fillText(String(page*perPage+i+1),x+20,y+55);if(step.visual)await drawVisual(ctx,step.visual,x+(cardW-visualSize)/2,y+95,visualSize,visualSize);ctx.fillStyle=PAPER_INK;ctx.textAlign='center';let fontSize=28;ctx.font='bold '+fontSize+'px FamilyPrint';let lines=wrap(ctx,step.label,cardW-35);while(lines.length>6&&fontSize>20){fontSize--;ctx.font='bold '+fontSize+'px FamilyPrint';lines=wrap(ctx,step.label,cardW-35)}lines.slice(0,6).forEach((line,k)=>ctx.fillText(line,x+cardW/2,y+95+visualSize+65+k*34));ctx.strokeStyle='#94b8a3';ctx.lineWidth=3;ctx.strokeRect(x+cardW/2-24,y+cardH-80,48,48);ctx.textAlign='left'}
  ctx.textAlign='center';ctx.fillStyle='#665e6f';ctx.font='20px FamilyPrint';ctx.fillText('Page '+(page+1)+' / '+count,W/2,H-40);images.push(rendererPage.snapshot())}
  return present(images,W,H,'sequence-horizontale-capelune-famille.pdf',preview)
 }
@@ -94,11 +94,11 @@ return present(images,W,H,'planning-capelune-famille.pdf',preview)}
 function trainCircle(ctx,x,y,r,fill,stroke){ctx.beginPath();ctx.arc(x,y,r,0,Math.PI*2);if(fill){ctx.fillStyle=fill;ctx.fill()}if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=3;ctx.stroke()}}
 function trainEngine(ctx,x,y,w,h){ctx.save();ctx.translate(x,y);ctx.scale(w/150,h/200);ctx.fillStyle='#bde9cc';rounded(ctx,8,95,95,72,false,28);ctx.fillStyle='#a8d9be';rounded(ctx,84,55,59,112,false,13);ctx.fillStyle='#e8f2fc';rounded(ctx,96,70,34,43,false,8);ctx.fillStyle='#86b99d';rounded(ctx,76,45,72,17,false,8);rounded(ctx,44,48,18,48,false,5);ctx.fillStyle='#e4f5e9';trainCircle(ctx,52,24,12,'#e4f5e9');for(const wx of [38,115]){trainCircle(ctx,wx,169,23,'#567b68');trainCircle(ctx,wx,169,10,'#ffe19a')}trainCircle(ctx,25,119,3,PAPER_INK);ctx.strokeStyle=PAPER_INK;ctx.beginPath();ctx.arc(25,126,10,.15*Math.PI,.85*Math.PI);ctx.stroke();ctx.restore()}
 async function downloadTrain(sequence,preview){
- const landscape=sequence.layout==='horizontal',W=landscape?1754:1240,H=landscape?1240:1754,max=4,count=Math.max(1,Math.ceil(sequence.steps.length/max)),per=Math.max(1,Math.ceil(sequence.steps.length/count)),rendererPage=FamilyPdfRenderer.createPage(W,H),ctx=rendererPage.ctx,images=[];
+ const landscape=sequence.layout==='horizontal',W=landscape?1754:1240,H=landscape?1240:1754,max=landscape?Math.max(1,sequence.steps.length):4,count=landscape?1:Math.max(1,Math.ceil(sequence.steps.length/max)),per=landscape?Math.max(1,sequence.steps.length):Math.max(1,Math.ceil(sequence.steps.length/count)),rendererPage=FamilyPdfRenderer.createPage(W,H),ctx=rendererPage.ctx,images=[];
  const colors=['#ffe4d8','#d8efdf','#e8daf5','#d8ebfb'];
  for(let page=0;page<count;page++){
  ctx.fillStyle='#fffdf7';ctx.fillRect(0,0,W,H);sunshine(ctx,W-90,85);sequenceHeading(ctx,sequence,W,true);ctx.textAlign='center';ctx.font='25px FamilyPrint';ctx.fillText('Une étape après l’autre',W/2,225);
- const shown=sequence.steps.slice(page*per,(page+1)*per),cols=landscape?Math.max(1,shown.length):Math.min(2,Math.max(1,shown.length)),rows=Math.max(1,Math.ceil(shown.length/cols)),rowH=Math.min(740,(H-390)/rows),gap=20,engineW=landscape?190:150,start=engineW+70,available=W-start-60,cardW=Math.min(620,(available-gap*(cols-1))/cols),cardH=Math.min(690,rowH-85);
+ const shown=sequence.steps.slice(page*per,(page+1)*per),cols=landscape?Math.min(4,Math.max(1,shown.length)):Math.min(2,Math.max(1,shown.length)),rows=Math.max(1,Math.ceil(shown.length/cols)),rowH=landscape?(H-365)/rows:Math.min(740,(H-390)/rows),gap=20,engineW=landscape?190:150,start=engineW+70,available=W-start-60,cardW=Math.min(620,(available-gap*(cols-1))/cols),cardH=landscape?Math.max(150,Math.min(690,rowH-75)):Math.min(690,rowH-85);
  for(let row=0;row<rows;row++){
  const rowSteps=shown.slice(row*cols,(row+1)*cols),top=290+row*rowH,rail=top+cardH+38;
  ctx.strokeStyle='#a2b6aa';ctx.lineWidth=5;ctx.beginPath();ctx.moveTo(45,rail);ctx.lineTo(W-45,rail);ctx.stroke();
@@ -109,7 +109,7 @@ async function downloadTrain(sequence,preview){
  ctx.fillStyle=colors[(number-1)%4];rounded(ctx,x,y,cardW,cardH,false,32);
  ctx.fillStyle='#fffdf7';rounded(ctx,x+15,y+65,cardW-30,cardH-150,false,26);
  trainCircle(ctx,x+cardW/2,y+22,34,'#fffdf7');ctx.fillStyle=PAPER_INK;ctx.textAlign='center';ctx.font='bold 36px FamilyPrint';ctx.fillText(String(number),x+cardW/2,y+35);
- const visualSize=Math.min(260,cardW-65,cardH-295);if(step.visual)await drawVisual(ctx,step.visual,x+(cardW-visualSize)/2,y+88,visualSize,visualSize);
+ const visualSize=landscape?Math.max(42,Math.min(210,cardW-65,(cardH-160)*.48)):Math.min(260,cardW-65,cardH-295);if(step.visual)await drawVisual(ctx,step.visual,x+(cardW-visualSize)/2,y+88,visualSize,visualSize);
  ctx.textAlign='center';ctx.fillStyle=PAPER_INK;let fs=30;ctx.font='bold '+fs+'px FamilyPrint';let lines=wrap(ctx,step.label,cardW-50);while(lines.length>5&&fs>20){ctx.font='bold '+(--fs)+'px FamilyPrint';lines=wrap(ctx,step.label,cardW-50)}lines.slice(0,5).forEach((line,k)=>ctx.fillText(line,x+cardW/2,y+88+visualSize+43+k*34));
  trainCircle(ctx,x+cardW/2,y+cardH-44,23,'#fffdf7','#567b68');
  for(const wx of [x+40,x+cardW-40]){trainCircle(ctx,wx,y+cardH+7,30,'#567b68');trainCircle(ctx,wx,y+cardH+7,12,'#ffe19a')}
