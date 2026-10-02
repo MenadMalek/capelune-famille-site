@@ -13,7 +13,8 @@
  const sources=document.createElement('div');sources.className='eap-picto-actions';sources.setAttribute('aria-label','Banques de pictogrammes');
  const local=document.createElement('button');local.type='button';local.id='eapPictoLocal';local.textContent='Banque locale';
  const both=document.createElement('button');both.type='button';both.id='eapPictoBoth';both.textContent='Les deux banques';
- sources.append(local,el('Online'),both,el('Multi'));dialog.querySelector('p').after(sources);
+ const multi=document.createElement('button');multi.type='button';multi.id='eapPictoMulti';multi.setAttribute('aria-pressed','false');multi.textContent='Sélection multiple';
+sources.append(local,el('Online'),both,multi);dialog.querySelector('p').after(sources);
  const onlineSection=document.createElement('section');onlineSection.id='eapPictoMulberry';onlineSection.hidden=true;
  const heading=document.createElement('h3');heading.textContent='Mulberry';
  const onlineStatus=document.createElement('p');onlineStatus.setAttribute('role','status');
