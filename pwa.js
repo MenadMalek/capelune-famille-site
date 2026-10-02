@@ -44,5 +44,5 @@ if(!window.CapeluneAndroid&&installPanel&&installButton&&!isStandalone){
   });
 }
 if(!window.CapeluneAndroid&&'serviceWorker'in navigator&&location.protocol==='https:'){
-  window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=46').catch(()=>{}));
+  window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js?v=47').catch(()=>{}));
 }
