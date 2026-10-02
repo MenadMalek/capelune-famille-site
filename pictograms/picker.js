@@ -21,7 +21,7 @@ sources.append(local,el('Online'),both,multi);dialog.querySelector('p').after(so
  const onlineGrid=document.createElement('div');onlineGrid.className='eap-picto-grid';onlineGrid.id='eapPictoOnlineGrid';
  onlineSection.append(heading,onlineStatus,onlineGrid);el('Grid').after(onlineSection);
  const localHeading=document.createElement('h3');localHeading.textContent='Banque locale';el('Status').before(localHeading);
- const skinNote=document.createElement('p');skinNote.className='eap-picto-skin-note';skinNote.textContent='La teinte choisie est appliquée quand une variante existe. Les autres pictogrammes restent visibles dans leur version d’origine.';el('Status').before(skinNote);
+ const skinNote=document.createElement('p');skinNote.className='eap-picto-skin-note';skinNote.textContent='Seuls les pictogrammes avec cette combinaison de personnage et de teinte sont affichés.';el('Status').before(skinNote);
  function updateMultiUI(){
   el('Multi').textContent=multiMode?'Sélection multiple activée':'Sélection multiple';
   el('Multi').setAttribute('aria-pressed',String(multiMode));
@@ -81,8 +81,8 @@ sources.append(local,el('Online'),both,multi);dialog.querySelector('p').after(so
    const genders=gender==='all'?(originalGender?[originalGender,originalGender==='boy'?'girl':'boy']:['boy','girl']):[gender];
    const requested=genders.map(g=>g+'_'+skin+'_'+render).find(usable);
    if(requested)return requested;
-   // Keep every pictogram available when its requested skin variant does not exist.
-   return genders.map(g=>g+'_'+render).concat('neutral_'+render).find(usable);
+   // Show only an exact skin-tone match while a tone is selected.
+   return;
   }
   const genders=gender==='all'?(originalGender?[originalGender,originalGender==='boy'?'girl':'boy']:['boy','girl']):[gender];
   const keys=(gender==='all'?['neutral_'+render]:[]).concat(genders.map(g=>g+'_'+render),['neutral_'+render]);
