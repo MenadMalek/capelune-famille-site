@@ -33,6 +33,18 @@
         "id": "CF-034",
         "alsoCategory": "loisirs"
       }
+    ],
+    "neutralSceneExceptions": [
+      {
+        "id": "CF-001",
+        "label": "Prendre un bain",
+        "instruction": "Use the child-free bathtub-and-duck pictogram under all four filters; bathing scene generation for a child was blocked."
+      },
+      {
+        "id": "CF-002",
+        "label": "Prendre une douche",
+        "instruction": "Keep the existing empty shower cabin visible under all four filters."
+      }
     ]
   },
   "existingBank": {
@@ -546,7 +558,7 @@
       "deplacements",
       "securite"
     ],
-    "newProfileImages": 284
+    "newProfileImages": 283
   },
   "note": "Candidate baseline for the full rebuild; this is not yet integrated into the live application."
 }
