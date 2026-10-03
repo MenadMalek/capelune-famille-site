@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "purpose": "Work queue for the complete rebuilt cute pictogram bank; nothing in this plan is wired into the live app.",
   "sourceCommit": "6bdc7888d06874f41e4602d4e7a9f34c37dd55d6",
-  "preserveExistingProfileCount": 150,
-  "newImageCount": 283,
+  "preserveExistingProfileCount": 146,
+  "newImageCount": 281,
   "reusedAssets": [
     {
       "id": "CF-001",
@@ -1017,7 +1017,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-004-boy-light.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-004",
@@ -1027,7 +1027,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-004-boy-dark.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-005",
@@ -1377,7 +1377,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-020-boy-light.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-020",
@@ -1387,7 +1387,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-020-boy-dark.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-021",
@@ -3847,8 +3847,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 23,
-  "remainingImages": 260,
+  "completedImages": 25,
+  "remainingImages": 256,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -3929,6 +3929,17 @@
         "girl_dark_color"
       ],
       "commit": "d2739940010c4bc7e37394b543bd35d7bdcfbc96"
+    },
+    {
+      "sceneIds": [
+        "CF-004",
+        "CF-020"
+      ],
+      "profiles": [
+        "neutral",
+        "neutral"
+      ],
+      "commit": "1519006f0dc8ef93cc2dd59588a16417467516b4"
     }
   ],
   "neutralAssets": [
@@ -3936,6 +3947,30 @@
       "id": "CF-001",
       "category": "hygiene",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-001-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-004",
+      "category": "hygiene",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-004-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-020",
+      "category": "hygiene",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-020-neutral.png",
       "profiles": [
         "boy_light_color",
         "boy_dark_color",
