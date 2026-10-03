@@ -1509,7 +1509,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-025-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-025",
@@ -1519,7 +1519,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-025-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-025",
@@ -1529,7 +1529,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-025-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-026",
@@ -3859,8 +3859,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 54,
-  "remainingImages": 206,
+  "completedImages": 57,
+  "remainingImages": 203,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4205,6 +4205,29 @@
       ],
       "replacements": [
         "pictograms/assets/famille_quotidien/rebuild/ecole/cf-024-girl-light.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-025"
+      ],
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 105,
+      "resolution": "384x384",
+      "visualCheck": "passed; existing boy-light asset verified and copied, new skin variants matched by pair",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-025-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-025-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-025-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-025-girl-light.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-025.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-025-boy-light.png"
+        }
       ]
     }
   ]
