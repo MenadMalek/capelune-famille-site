@@ -582,7 +582,7 @@
       "deplacements",
       "securite"
     ],
-    "newProfileImages": 275
+    "newAssetFiles": 260
   },
   "note": "Candidate baseline for the full rebuild; this is not yet integrated into the live application."
 }
