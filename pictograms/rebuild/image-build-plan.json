@@ -432,18 +432,6 @@
       "source": "pictograms/assets/famille_quotidien/maison/cf-042.png"
     },
     {
-      "id": "CF-043",
-      "category": "habillage",
-      "profile": "boy_light_color",
-      "source": "pictograms/assets/famille_quotidien/maison/cf-043-boy-light.png"
-    },
-    {
-      "id": "CF-043",
-      "category": "habillage",
-      "profile": "boy_dark_color",
-      "source": "pictograms/assets/famille_quotidien/maison/cf-043.png"
-    },
-    {
       "id": "CF-044",
       "category": "habillage",
       "profile": "girl_light_color",
@@ -1979,7 +1967,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-043",
@@ -1989,7 +1977,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-044",
@@ -3859,8 +3847,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 101,
-  "remainingImages": 159,
+  "completedImages": 93,
+  "remainingImages": 167,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4641,6 +4629,29 @@
           "source": "pictograms/assets/famille_quotidien/maison/cf-042.png",
           "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-042-girl-dark.png"
         }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-043"
+      ],
+      "label": "Mettre son t-shirt",
+      "category": "habillage",
+      "imageCount": 2,
+      "replacementCount": 2,
+      "generationAndRevisionSeconds": 0,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four children are fully dressed and clearly finish putting on the T-shirt by pulling down its hem; boy-light and boy-dark source pictures showing a raised shirt were replaced",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-girl-dark.png"
+      ],
+      "replacements": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-boy-dark.png"
       ]
     }
   ]
