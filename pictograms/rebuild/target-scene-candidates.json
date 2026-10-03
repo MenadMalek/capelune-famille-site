@@ -44,6 +44,16 @@
         "id": "CF-002",
         "label": "Prendre une douche",
         "instruction": "Keep the existing empty shower cabin visible under all four filters."
+      },
+      {
+        "id": "CF-004",
+        "label": "Se rincer les cheveux",
+        "instruction": "Use the neutral shower-head-and-hair pictogram under all four filters."
+      },
+      {
+        "id": "CF-020",
+        "label": "Mettre de la crème solaire",
+        "instruction": "Use the neutral sun-protection bottle pictogram under all four filters."
       }
     ]
   },
@@ -558,7 +568,7 @@
       "deplacements",
       "securite"
     ],
-    "newProfileImages": 283
+    "newProfileImages": 281
   },
   "note": "Candidate baseline for the full rebuild; this is not yet integrated into the live application."
 }
