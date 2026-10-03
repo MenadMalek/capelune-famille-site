@@ -2653,7 +2653,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-093-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-093",
@@ -2663,7 +2663,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-093-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-093",
@@ -2673,7 +2673,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-093-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-093",
@@ -2683,7 +2683,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-093-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-094",
@@ -2693,7 +2693,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-094-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-094",
@@ -2703,7 +2703,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-094-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-094",
@@ -2713,7 +2713,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-094-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-094",
@@ -2723,7 +2723,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-094-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-095",
@@ -2733,7 +2733,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-095",
@@ -2743,7 +2743,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-095",
@@ -2753,7 +2753,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-095",
@@ -2763,7 +2763,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-096",
@@ -3855,8 +3855,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 144,
-  "remainingImages": 84,
+  "completedImages": 156,
+  "remainingImages": 72,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -5038,6 +5038,63 @@
           "source": "pictograms/assets/famille_quotidien/maison/cf-060.png",
           "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-060-girl-light.png"
         }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-093"
+      ],
+      "label": "S’habiller complètement",
+      "category": "habillage",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 340,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show a fully dressed child fastening the front buttons of a shirt, with trousers and shoes",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-093-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-093-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-093-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-093-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-094"
+      ],
+      "label": "Manger",
+      "category": "repas",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 340,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show a child seated at a table eating from a plate with a spoon",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-094-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-094-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-094-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-094-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-095"
+      ],
+      "label": "Boire",
+      "category": "repas",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 340,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles clearly show a child raising a glass to drink",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-girl-dark.png"
       ]
     }
   ],
