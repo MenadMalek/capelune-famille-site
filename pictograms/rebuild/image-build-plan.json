@@ -3277,7 +3277,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-108-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-108",
@@ -3287,7 +3287,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-108-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-108",
@@ -3297,7 +3297,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-108-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-108",
@@ -3307,7 +3307,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-108-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-109",
@@ -3317,7 +3317,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-109-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-109",
@@ -3327,7 +3327,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-109-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-109",
@@ -3337,7 +3337,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-109-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-109",
@@ -3347,7 +3347,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-109-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-110",
@@ -3357,7 +3357,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-110",
@@ -3367,7 +3367,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-110",
@@ -3377,7 +3377,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-110",
@@ -3387,7 +3387,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-111",
@@ -3855,8 +3855,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 180,
-  "remainingImages": 48,
+  "completedImages": 192,
+  "remainingImages": 36,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -5209,6 +5209,63 @@
         "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-102-boy-dark.png",
         "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-102-girl-light.png",
         "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-102-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-108"
+      ],
+      "label": "Plier les vêtements",
+      "category": "maison",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child folding a shirt on a table beside a stack of folded clothes",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-108-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-108-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-108-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-108-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-109"
+      ],
+      "label": "Jeter quelque chose à la poubelle",
+      "category": "maison",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child placing crumpled paper into an open wastebasket",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-109-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-109-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-109-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-109-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-110"
+      ],
+      "label": "Nettoyer la table",
+      "category": "maison",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child wiping a visible tabletop with a cloth",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-girl-dark.png"
       ]
     }
   ],
