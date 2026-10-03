@@ -9,7 +9,7 @@
  const el=id=>dialog.querySelector('#eapPicto'+id);let page=0,options=null,token=0,busy=false,source='local',queryToken=0,searchTimer,multiMode=false;
  const selected=new Map(),MAX_SELECTED=12;
  el('Title').textContent='Choisir un pictogramme';
- dialog.querySelector('p').textContent='Choisis une image, ou active la sélection multiple pour ajouter plusieurs images à la suite. 60 images locales sont disponibles sans Internet ; Mulberry nécessite une connexion.';
+ dialog.querySelector('p').textContent='Choisis une image, ou active la sélection multiple pour ajouter plusieurs images à la suite. La banque locale est disponible sans Internet ; Mulberry nécessite une connexion.';
  const sources=document.createElement('div');sources.className='eap-picto-actions';sources.setAttribute('aria-label','Banques de pictogrammes');
  const local=document.createElement('button');local.type='button';local.id='eapPictoLocal';local.textContent='Banque locale';
  const both=document.createElement('button');both.type='button';both.id='eapPictoBoth';both.textContent='Les deux banques';
