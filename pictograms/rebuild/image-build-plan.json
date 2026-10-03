@@ -1035,7 +1035,8 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-005-girl-light.png",
-      "status": "not_generated"
+      "status": "generated",
+      "committedToWorkBranch": true
     },
     {
       "id": "CF-005",
@@ -1045,7 +1046,8 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-005-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated",
+      "committedToWorkBranch": true
     },
     {
       "id": "CF-006",
@@ -3824,5 +3826,15 @@
       "action": "reuse existing image; expose under all four filters"
     },
     "noPartialIntegration": true
+  },
+  "completedImages": 2,
+  "remainingImages": 282,
+  "firstBatch": {
+    "scene": "CF-005 Se brosser les dents",
+    "profiles": [
+      "girl_light_color",
+      "girl_dark_color"
+    ],
+    "commit": "3fc41a3eb9724f6e0abc66989fbbf93a81db215c"
   }
 }
