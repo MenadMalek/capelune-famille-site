@@ -1699,7 +1699,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-032-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-032",
@@ -1709,7 +1709,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-032-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-033",
@@ -3859,8 +3859,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 73,
-  "remainingImages": 187,
+  "completedImages": 75,
+  "remainingImages": 185,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4375,6 +4375,30 @@
         {
           "source": "pictograms/assets/famille_quotidien/ecole/cf-031.png",
           "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-031-boy-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-032"
+      ],
+      "label": "Découper",
+      "category": "ecole",
+      "imageCount": 2,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 60,
+      "resolution": "384x384",
+      "visualCheck": "passed; rounded scissors visibly cut paper and the reused girl-dark source matches the action",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-032-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-032-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-032-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-032.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-032-girl-dark.png"
         }
       ]
     }
