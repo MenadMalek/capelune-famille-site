@@ -2293,7 +2293,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-058-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-058",
@@ -2303,7 +2303,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-058-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-059",
@@ -2313,7 +2313,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-059-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-059",
@@ -2323,7 +2323,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-059-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-059",
@@ -2333,7 +2333,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-059-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-060",
@@ -2343,7 +2343,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-060-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-060",
@@ -2353,7 +2353,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-060-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-060",
@@ -2363,7 +2363,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-060-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-086",
@@ -3855,8 +3855,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 136,
-  "remainingImages": 92,
+  "completedImages": 144,
+  "remainingImages": 84,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4963,6 +4963,81 @@
       ],
       "replacements": [
         "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-057-boy-light.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-058"
+      ],
+      "label": "Mettre son pyjama",
+      "category": "habillage",
+      "imageCount": 2,
+      "reusedCount": 2,
+      "generationAndRevisionSeconds": 240,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four children wear full pajamas; each is putting on the same star-and-moon pajama top",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-058-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-058-boy-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-058-girl-light.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-058-girl-light.png"
+        },
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-058.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-058-girl-dark.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-059"
+      ],
+      "label": "Se coucher",
+      "category": "maison",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 240,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four children are tucked into bed under the same star blanket at night",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-059-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-059-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-059-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-059.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-059-boy-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-060"
+      ],
+      "label": "Éteindre la lumière",
+      "category": "maison",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 240,
+      "resolution": "384x384",
+      "visualCheck": "passed; each child clearly reaches to pull the bedside lamp switch to turn off the light",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-060-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-060-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-060-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-060.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-060-girl-light.png"
+        }
       ]
     }
   ],
