@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "purpose": "Work queue for the complete rebuilt cute pictogram bank; nothing in this plan is wired into the live app.",
   "sourceCommit": "6bdc7888d06874f41e4602d4e7a9f34c37dd55d6",
-  "preserveExistingProfileCount": 152,
-  "newImageCount": 284,
+  "preserveExistingProfileCount": 150,
+  "newImageCount": 283,
   "reusedAssets": [
     {
       "id": "CF-001",
@@ -975,7 +975,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-001-girl-light.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-001",
@@ -985,7 +985,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-001-girl-dark.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-003",
@@ -995,7 +995,8 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-003-girl-light.png",
-      "status": "not_generated"
+      "status": "generated",
+      "committedToWorkBranch": true
     },
     {
       "id": "CF-003",
@@ -1005,7 +1006,8 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-003-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated",
+      "committedToWorkBranch": true
     },
     {
       "id": "CF-004",
@@ -3845,8 +3847,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 20,
-  "remainingImages": 264,
+  "completedImages": 23,
+  "remainingImages": 260,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -3915,6 +3917,32 @@
         "girl_dark_color"
       ],
       "commit": "9b35663cf07fb307834f019938946849e28f418d"
+    },
+    {
+      "sceneIds": [
+        "CF-001",
+        "CF-003"
+      ],
+      "profiles": [
+        "neutral",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "commit": "d2739940010c4bc7e37394b543bd35d7bdcfbc96"
+    }
+  ],
+  "neutralAssets": [
+    {
+      "id": "CF-001",
+      "category": "hygiene",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-001-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
     }
   ]
 }
