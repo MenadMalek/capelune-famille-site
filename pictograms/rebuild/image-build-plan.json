@@ -1609,7 +1609,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-029-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-029",
@@ -1619,7 +1619,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-029-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-029",
@@ -1629,7 +1629,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-029-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-030",
@@ -3859,8 +3859,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 64,
-  "remainingImages": 196,
+  "completedImages": 67,
+  "remainingImages": 193,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4300,6 +4300,31 @@
         {
           "source": "pictograms/assets/famille_quotidien/ecole/cf-028.png",
           "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-028-girl-dark.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-029"
+      ],
+      "label": "Écouter l’enseignante",
+      "category": "ecole",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 90,
+      "resolution": "384x384",
+      "visualCheck": "passed; listening action readable through child gaze and listening posture while teacher speaks; three generated variants matched against validated source",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-029-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-029-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-029-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-029-boy-light.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-029.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-029-boy-light.png"
         }
       ]
     }
