@@ -2079,7 +2079,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-049-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-049",
@@ -2089,7 +2089,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-049-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-049",
@@ -2099,7 +2099,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-049-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-050",
@@ -3829,8 +3829,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 114,
-  "remainingImages": 146,
+  "completedImages": 117,
+  "remainingImages": 143,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4728,6 +4728,31 @@
         {
           "source": "pictograms/assets/famille_quotidien/maison/cf-047.png",
           "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-047-boy-dark.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-049"
+      ],
+      "label": "Boire de l’eau",
+      "category": "repas",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 86,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child holding a clear glass to the mouth and drinking water; profile differences checked",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-049-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-049-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-049-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-049-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-049.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-049-boy-light.png"
         }
       ]
     }
