@@ -3,7 +3,7 @@
   "purpose": "Work queue for the complete rebuilt cute pictogram bank; nothing in this plan is wired into the live app.",
   "sourceCommit": "6bdc7888d06874f41e4602d4e7a9f34c37dd55d6",
   "preserveExistingProfileCount": 146,
-  "newImageCount": 281,
+  "newImageCount": 275,
   "reusedAssets": [
     {
       "id": "CF-001",
@@ -2397,7 +2397,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-086-boy-light.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-086",
@@ -2407,7 +2407,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-086-boy-dark.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-086",
@@ -2417,7 +2417,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-086-girl-light.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-086",
@@ -2427,7 +2427,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-086-girl-dark.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-087",
@@ -2437,7 +2437,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-087-boy-light.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-087",
@@ -2447,7 +2447,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-087-boy-dark.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-087",
@@ -2457,7 +2457,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-087-girl-light.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-087",
@@ -2467,7 +2467,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-087-girl-dark.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-088",
@@ -3847,8 +3847,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 25,
-  "remainingImages": 256,
+  "completedImages": 27,
+  "remainingImages": 248,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -3940,6 +3940,17 @@
         "neutral"
       ],
       "commit": "1519006f0dc8ef93cc2dd59588a16417467516b4"
+    },
+    {
+      "sceneIds": [
+        "CF-086",
+        "CF-087"
+      ],
+      "profiles": [
+        "neutral",
+        "neutral"
+      ],
+      "commit": "afde8351ecc0217221556212dc88bb0b60da6d6f"
     }
   ],
   "neutralAssets": [
@@ -3971,6 +3982,30 @@
       "id": "CF-020",
       "category": "hygiene",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-020-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-086",
+      "category": "hygiene",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-086-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-087",
+      "category": "hygiene",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-087-neutral.png",
       "profiles": [
         "boy_light_color",
         "boy_dark_color",
