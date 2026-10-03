@@ -57,13 +57,38 @@
       },
       {
         "id": "CF-086",
-        "label": "Se sécher avec une serviette",
-        "instruction": "Use the neutral towel icon under all four filters."
+        "label": "Baisser son pantalon",
+        "instruction": "Use a neutral clothing icon under all four profile filters."
       },
       {
         "id": "CF-087",
+        "label": "S’asseoir sur les toilettes",
+        "instruction": "Use the neutral toilet icon under all four profile filters."
+      },
+      {
+        "id": "CF-088",
+        "label": "Utiliser le papier toilette",
+        "instruction": "Use the neutral toilet-paper holder under all four profile filters."
+      },
+      {
+        "id": "CF-089",
+        "label": "S’essuyer après être allé aux toilettes",
+        "instruction": "Use the neutral tissue-and-roll icon under all four profile filters."
+      },
+      {
+        "id": "CF-090",
+        "label": "Remonter son pantalon",
+        "instruction": "Use the neutral trousers-and-up-arrows icon under all four profile filters."
+      },
+      {
+        "id": "CF-091",
+        "label": "Se sécher avec une serviette",
+        "instruction": "Use the neutral towel icon under all four profile filters."
+      },
+      {
+        "id": "CF-092",
         "label": "Mettre du déodorant",
-        "instruction": "Use the neutral deodorant-and-shirt icon under all four filters."
+        "instruction": "Use the neutral deodorant icon under all four profile filters."
       }
     ]
   },
@@ -98,10 +123,7 @@
         "category": "toilettes",
         "sourceLabel": "Baisser le pantalon",
         "profiles": [
-          "boy_light_color",
-          "boy_dark_color",
-          "girl_light_color",
-          "girl_dark_color"
+          "neutral"
         ],
         "status": "new_scene"
       },
@@ -111,10 +133,7 @@
         "category": "toilettes",
         "sourceLabel": "S’asseoir sur les toilettes",
         "profiles": [
-          "boy_light_color",
-          "boy_dark_color",
-          "girl_light_color",
-          "girl_dark_color"
+          "neutral"
         ],
         "status": "new_scene"
       },
@@ -124,10 +143,7 @@
         "category": "toilettes",
         "sourceLabel": "Utiliser le papier toilette",
         "profiles": [
-          "boy_light_color",
-          "boy_dark_color",
-          "girl_light_color",
-          "girl_dark_color"
+          "neutral"
         ],
         "status": "new_scene"
       },
@@ -137,10 +153,7 @@
         "category": "toilettes",
         "sourceLabel": "S’essuyer",
         "profiles": [
-          "boy_light_color",
-          "boy_dark_color",
-          "girl_light_color",
-          "girl_dark_color"
+          "neutral"
         ],
         "status": "new_scene"
       },
@@ -150,10 +163,7 @@
         "category": "toilettes",
         "sourceLabel": "Remonter le pantalon",
         "profiles": [
-          "boy_light_color",
-          "boy_dark_color",
-          "girl_light_color",
-          "girl_dark_color"
+          "neutral"
         ],
         "status": "new_scene"
       },
@@ -163,10 +173,7 @@
         "category": "hygiene",
         "sourceLabel": "Se sécher avec une serviette",
         "profiles": [
-          "boy_light_color",
-          "boy_dark_color",
-          "girl_light_color",
-          "girl_dark_color"
+          "neutral"
         ],
         "status": "new_scene"
       },
@@ -176,10 +183,7 @@
         "category": "hygiene",
         "sourceLabel": "Mettre du déodorant",
         "profiles": [
-          "boy_light_color",
-          "boy_dark_color",
-          "girl_light_color",
-          "girl_dark_color"
+          "neutral"
         ],
         "status": "new_scene"
       },
