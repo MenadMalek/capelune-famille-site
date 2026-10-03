@@ -1409,7 +1409,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-021-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-021",
@@ -1419,7 +1419,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-021-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-021",
@@ -1429,7 +1429,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-021-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-022",
@@ -3859,8 +3859,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 44,
-  "remainingImages": 216,
+  "completedImages": 47,
+  "remainingImages": 213,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4152,6 +4152,22 @@
         "girl_dark_color"
       ],
       "status": "generated"
+    }
+  ],
+  "pilotRuns": [
+    {
+      "date": "2026-10-03",
+      "sceneId": "CF-021",
+      "label": "Préparer son cartable",
+      "imageCount": 3,
+      "durationSeconds": 79,
+      "resolution": "384x384",
+      "visualCheck": "passed",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-021-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-021-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-021-girl-dark.png"
+      ]
     }
   ]
 }
