@@ -3,7 +3,7 @@
   "purpose": "Work queue for the complete rebuilt cute pictogram bank; nothing in this plan is wired into the live app.",
   "sourceCommit": "6bdc7888d06874f41e4602d4e7a9f34c37dd55d6",
   "preserveExistingProfileCount": 146,
-  "newImageCount": 275,
+  "newImageCount": 260,
   "reusedAssets": [
     {
       "id": "CF-001",
@@ -3856,7 +3856,7 @@
     "noPartialIntegration": true
   },
   "completedImages": 40,
-  "remainingImages": 235,
+  "remainingImages": 220,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
