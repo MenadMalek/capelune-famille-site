@@ -1959,7 +1959,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-042-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-042",
@@ -1969,7 +1969,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-042-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-043",
@@ -3859,8 +3859,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 99,
-  "remainingImages": 161,
+  "completedImages": 101,
+  "remainingImages": 159,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4616,6 +4616,30 @@
         {
           "source": "pictograms/assets/famille_quotidien/maison/cf-041.png",
           "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-041-boy-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-042"
+      ],
+      "label": "Faire son lit",
+      "category": "maison",
+      "imageCount": 2,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 80,
+      "resolution": "384x384",
+      "visualCheck": "passed; child visibly smooths and arranges bed cover in both boy variants, girl-dark source checked",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-042-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-042-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-042-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-042.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-042-girl-dark.png"
         }
       ]
     }
