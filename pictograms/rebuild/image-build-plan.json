@@ -3847,8 +3847,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 93,
-  "remainingImages": 167,
+  "completedImages": 103,
+  "remainingImages": 157,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4640,7 +4640,7 @@
       "category": "habillage",
       "imageCount": 2,
       "replacementCount": 2,
-      "generationAndRevisionSeconds": 0,
+      "generationAndRevisionSeconds": 125,
       "resolution": "384x384",
       "visualCheck": "passed; all four children are fully dressed and clearly finish putting on the T-shirt by pulling down its hem; boy-light and boy-dark source pictures showing a raised shirt were replaced",
       "assets": [
