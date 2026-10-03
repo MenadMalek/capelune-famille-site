@@ -1669,7 +1669,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-031-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-031",
@@ -1679,7 +1679,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-031-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-031",
@@ -1689,7 +1689,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-031-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-032",
@@ -3859,8 +3859,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 70,
-  "remainingImages": 190,
+  "completedImages": 73,
+  "remainingImages": 187,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4350,6 +4350,31 @@
         {
           "source": "pictograms/assets/famille_quotidien/ecole/cf-030.png",
           "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-030-girl-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-031"
+      ],
+      "label": "Demander de l’aide",
+      "category": "ecole",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 90,
+      "resolution": "384x384",
+      "visualCheck": "passed; teacher points to exercise and child signals uncertainty, clear help-seeking scene across all variants",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-031-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-031-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-031-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-031-boy-light.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-031.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-031-boy-light.png"
         }
       ]
     }
