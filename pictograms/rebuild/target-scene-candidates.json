@@ -54,6 +54,16 @@
         "id": "CF-020",
         "label": "Mettre de la crème solaire",
         "instruction": "Use the neutral sun-protection bottle pictogram under all four filters."
+      },
+      {
+        "id": "CF-086",
+        "label": "Se sécher avec une serviette",
+        "instruction": "Use the neutral towel icon under all four filters."
+      },
+      {
+        "id": "CF-087",
+        "label": "Mettre du déodorant",
+        "instruction": "Use the neutral deodorant-and-shirt icon under all four filters."
       }
     ]
   },
@@ -568,7 +578,7 @@
       "deplacements",
       "securite"
     ],
-    "newProfileImages": 281
+    "newProfileImages": 275
   },
   "note": "Candidate baseline for the full rebuild; this is not yet integrated into the live application."
 }
