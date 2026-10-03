@@ -85,7 +85,7 @@ sources.append(local,el('Online'),both,multi);dialog.querySelector('p').after(so
    return;
   }
   const genders=gender==='all'?(originalGender?[originalGender,originalGender==='boy'?'girl':'boy']:['boy','girl']):[gender];
-  const keys=(gender==='all'?['neutral_'+render]:[]).concat(genders.map(g=>g+'_'+render),['neutral_'+render]);
+  const keys=(gender==='all'?['neutral_'+render]:[]).concat(genders.flatMap(g=>[g+'_'+render,g+'_light_'+render,g+'_dark_'+render]),['neutral_'+render]);
   return keys.find(usable);
  }
  function render(){
