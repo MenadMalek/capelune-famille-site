@@ -38,7 +38,12 @@
   "existingBank": {
     "sceneCount": 73,
     "sourceFile": "initial-inventory.json",
-    "rebuildAllCharacterIllustrations": true
+    "rebuildAllCharacterIllustrations": false,
+    "policy": "Keep verified existing profile assets; generate missing variants only. Assemble and integrate the new bank as one complete release.",
+    "neutralSceneException": {
+      "id": "CF-002",
+      "instruction": "Keep the existing empty shower-cabin pictogram and expose it under all four profile filters."
+    }
   },
   "additions": {
     "sceneCount": 36,
@@ -523,7 +528,8 @@
         ],
         "status": "new_scene"
       }
-    ]
+    ],
+    "generationRule": "Generate all four profiles for each added child scene."
   },
   "target": {
     "sceneCount": 109,
@@ -539,7 +545,8 @@
       "emotions",
       "deplacements",
       "securite"
-    ]
+    ],
+    "newProfileImages": 284
   },
   "note": "Candidate baseline for the full rebuild; this is not yet integrated into the live application."
 }
