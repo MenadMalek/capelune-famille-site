@@ -2817,7 +2817,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-097-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-097",
@@ -2827,7 +2827,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-097-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-097",
@@ -2837,7 +2837,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-097-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-097",
@@ -2847,7 +2847,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-097-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-098",
@@ -2857,7 +2857,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-098-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-098",
@@ -2867,7 +2867,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-098-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-098",
@@ -2877,7 +2877,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-098-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-098",
@@ -2887,7 +2887,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-098-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-099",
@@ -2897,7 +2897,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-099-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-099",
@@ -2907,7 +2907,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-099-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-099",
@@ -2917,7 +2917,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-099-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-099",
@@ -2927,7 +2927,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-099-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-100",
@@ -3855,8 +3855,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 156,
-  "remainingImages": 72,
+  "completedImages": 168,
+  "remainingImages": 60,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -5095,6 +5095,63 @@
         "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-boy-dark.png",
         "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-girl-light.png",
         "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-097"
+      ],
+      "label": "Travailler en classe",
+      "category": "ecole",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 380,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child writing classwork in an open notebook at a school desk with a classroom board",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-097-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-097-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-097-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-097-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-098"
+      ],
+      "label": "Ranger son cartable",
+      "category": "ecole",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 380,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child placing notebooks into an open school backpack",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-098-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-098-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-098-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-098-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-099"
+      ],
+      "label": "Jouer librement",
+      "category": "loisirs",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 380,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child playing freely on the floor and stacking colorful toy blocks",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-099-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-099-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-099-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-099-girl-dark.png"
       ]
     }
   ],
