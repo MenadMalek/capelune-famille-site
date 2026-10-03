@@ -550,12 +550,6 @@
     {
       "id": "CF-057",
       "category": "loisirs",
-      "profile": "boy_light_color",
-      "source": "pictograms/assets/famille_quotidien/maison/cf-057-boy-light.png"
-    },
-    {
-      "id": "CF-057",
-      "category": "loisirs",
       "profile": "boy_dark_color",
       "source": "pictograms/assets/famille_quotidien/maison/cf-057.png"
     },
@@ -2249,7 +2243,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-056-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-056",
@@ -2259,7 +2253,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-056-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-056",
@@ -2269,7 +2263,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-056-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-057",
@@ -2279,7 +2273,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-057-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-057",
@@ -2289,7 +2283,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-057-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-058",
@@ -3861,8 +3855,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 131,
-  "remainingImages": 97,
+  "completedImages": 136,
+  "remainingImages": 92,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4915,6 +4909,60 @@
           "source": "pictograms/assets/famille_quotidien/maison/cf-055.png",
           "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-055-boy-light.png"
         }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-056"
+      ],
+      "label": "Faire un puzzle",
+      "category": "loisirs",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 170,
+      "resolution": "384x384",
+      "visualCheck": "passed; all profiles show the child fitting a puzzle piece into the board",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-056-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-056-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-056-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-056-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-056.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-056-girl-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-057"
+      ],
+      "label": "Lire une histoire",
+      "category": "loisirs",
+      "imageCount": 2,
+      "reusedCount": 1,
+      "replacementCount": 1,
+      "generationAndRevisionSeconds": 170,
+      "resolution": "384x384",
+      "visualCheck": "passed; adult and child share a picture book; the boy-light source was dark-skinned and replaced with a light-skinned child, while boy-dark was verified",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-057-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-057-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-057-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-057-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-057.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-057-boy-dark.png"
+        }
+      ],
+      "replacements": [
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-057-boy-light.png"
       ]
     }
   ],
