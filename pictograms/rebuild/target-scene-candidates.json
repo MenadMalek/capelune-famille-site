@@ -1,0 +1,545 @@
+{
+  "schemaVersion": 1,
+  "title": "Catalogue cible — reconstruction de la banque mignonne",
+  "basis": "73 scènes mignonnes existantes + scènes complémentaires issues des 60 pictogrammes familiaux déjà intégrés.",
+  "policy": {
+    "preserveExistingSceneIds": true,
+    "replaceIllustrationsAsGroups": true,
+    "variantsForCharacterScenes": [
+      "boy_light_color",
+      "boy_dark_color",
+      "girl_light_color",
+      "girl_dark_color"
+    ],
+    "neutralSceneException": {
+      "id": "CF-002",
+      "label": "Prendre une douche",
+      "instruction": "Conserver la cabine de douche vide déjà existante; la rendre visible sous les quatre filtres garçon/fille et peau claire/foncée."
+    },
+    "localOfflineAssets": true,
+    "exclude": [
+      "protection_enfance"
+    ],
+    "reuseCrossCategoryScenes": [
+      {
+        "id": "CF-007",
+        "alsoCategory": "toilettes"
+      },
+      {
+        "id": "CF-031",
+        "alsoCategory": "securite"
+      },
+      {
+        "id": "CF-034",
+        "alsoCategory": "loisirs"
+      }
+    ]
+  },
+  "existingBank": {
+    "sceneCount": 73,
+    "sourceFile": "initial-inventory.json",
+    "rebuildAllCharacterIllustrations": true
+  },
+  "additions": {
+    "sceneCount": 36,
+    "categoryCounts": {
+      "toilettes": 5,
+      "hygiene": 2,
+      "habillage": 1,
+      "repas": 3,
+      "ecole": 2,
+      "loisirs": 4,
+      "emotions": 5,
+      "maison": 3,
+      "deplacements": 6,
+      "securite": 5
+    },
+    "scenes": [
+      {
+        "id": "CF-086",
+        "label": "Baisser son pantalon",
+        "category": "toilettes",
+        "sourceLabel": "Baisser le pantalon",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-087",
+        "label": "S’asseoir sur les toilettes",
+        "category": "toilettes",
+        "sourceLabel": "S’asseoir sur les toilettes",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-088",
+        "label": "Utiliser le papier toilette",
+        "category": "toilettes",
+        "sourceLabel": "Utiliser le papier toilette",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-089",
+        "label": "S’essuyer après être allé aux toilettes",
+        "category": "toilettes",
+        "sourceLabel": "S’essuyer",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-090",
+        "label": "Remonter son pantalon",
+        "category": "toilettes",
+        "sourceLabel": "Remonter le pantalon",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-091",
+        "label": "Se sécher avec une serviette",
+        "category": "hygiene",
+        "sourceLabel": "Se sécher avec une serviette",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-092",
+        "label": "Mettre du déodorant",
+        "category": "hygiene",
+        "sourceLabel": "Mettre du déodorant",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-093",
+        "label": "S’habiller complètement",
+        "category": "habillage",
+        "sourceLabel": "S’habiller complètement",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-094",
+        "label": "Manger",
+        "category": "repas",
+        "sourceLabel": "Manger",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-095",
+        "label": "Boire",
+        "category": "repas",
+        "sourceLabel": "Boire",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-096",
+        "label": "Repas terminé",
+        "category": "repas",
+        "sourceLabel": "Repas terminé",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-097",
+        "label": "Travailler en classe",
+        "category": "ecole",
+        "sourceLabel": "Travailler en classe",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-098",
+        "label": "Ranger son cartable",
+        "category": "ecole",
+        "sourceLabel": "Ranger son cartable",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-099",
+        "label": "Jouer librement",
+        "category": "loisirs",
+        "sourceLabel": "Jouer",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-100",
+        "label": "Regarder un écran",
+        "category": "loisirs",
+        "sourceLabel": "Regarder un écran",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-101",
+        "label": "Faire du sport",
+        "category": "loisirs",
+        "sourceLabel": "Faire du sport",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-102",
+        "label": "Écouter de la musique",
+        "category": "loisirs",
+        "sourceLabel": "Écouter de la musique",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-103",
+        "label": "Être content",
+        "category": "emotions",
+        "sourceLabel": "Content / contente",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-104",
+        "label": "Être triste",
+        "category": "emotions",
+        "sourceLabel": "Triste",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-105",
+        "label": "Être en colère",
+        "category": "emotions",
+        "sourceLabel": "En colère",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-106",
+        "label": "Être fatigué",
+        "category": "emotions",
+        "sourceLabel": "Fatigué / fatiguée",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-107",
+        "label": "Être calme",
+        "category": "emotions",
+        "sourceLabel": "Calme",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-108",
+        "label": "Plier les vêtements",
+        "category": "maison",
+        "sourceLabel": "Plier les vêtements",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-109",
+        "label": "Jeter quelque chose à la poubelle",
+        "category": "maison",
+        "sourceLabel": "Jeter à la poubelle",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-110",
+        "label": "Nettoyer la table",
+        "category": "maison",
+        "sourceLabel": "Nettoyer la table",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-111",
+        "label": "Attacher sa ceinture",
+        "category": "deplacements",
+        "sourceLabel": "Attacher la ceinture",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-112",
+        "label": "Monter en voiture",
+        "category": "deplacements",
+        "sourceLabel": "Monter en voiture",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-113",
+        "label": "Descendre de voiture",
+        "category": "deplacements",
+        "sourceLabel": "Descendre de voiture",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-114",
+        "label": "Traverser avec un adulte",
+        "category": "deplacements",
+        "sourceLabel": "Traverser avec un adulte",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-115",
+        "label": "Attendre le bus",
+        "category": "deplacements",
+        "sourceLabel": "Attendre le bus",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-116",
+        "label": "Monter dans le bus",
+        "category": "deplacements",
+        "sourceLabel": "Monter dans le bus",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-117",
+        "label": "S’arrêter au signal",
+        "category": "securite",
+        "sourceLabel": "Stop",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-118",
+        "label": "Attendre son tour",
+        "category": "securite",
+        "sourceLabel": "Attendre",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-119",
+        "label": "Tenir la main d’un adulte",
+        "category": "securite",
+        "sourceLabel": "Tenir la main",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-120",
+        "label": "Rester avec le groupe",
+        "category": "securite",
+        "sourceLabel": "Rester avec le groupe",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      },
+      {
+        "id": "CF-121",
+        "label": "Marcher sans courir",
+        "category": "securite",
+        "sourceLabel": "Ne pas courir",
+        "profiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ],
+        "status": "new_scene"
+      }
+    ]
+  },
+  "target": {
+    "sceneCount": 109,
+    "categoryCount": 10,
+    "categories": [
+      "hygiene",
+      "toilettes",
+      "habillage",
+      "maison",
+      "ecole",
+      "repas",
+      "loisirs",
+      "emotions",
+      "deplacements",
+      "securite"
+    ]
+  },
+  "note": "Candidate baseline for the full rebuild; this is not yet integrated into the live application."
+}
