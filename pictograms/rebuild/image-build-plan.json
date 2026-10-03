@@ -432,12 +432,6 @@
       "source": "pictograms/assets/famille_quotidien/maison/cf-042.png"
     },
     {
-      "id": "CF-044",
-      "category": "habillage",
-      "profile": "girl_light_color",
-      "source": "pictograms/assets/famille_quotidien/maison/cf-044.png"
-    },
-    {
       "id": "CF-045",
       "category": "habillage",
       "profile": "boy_light_color",
@@ -1987,7 +1981,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-044",
@@ -1997,7 +1991,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-044",
@@ -2007,7 +2001,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-045",
@@ -3847,8 +3841,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 103,
-  "remainingImages": 157,
+  "completedImages": 106,
+  "remainingImages": 154,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4652,6 +4646,28 @@
       "replacements": [
         "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-boy-light.png",
         "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-boy-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-044"
+      ],
+      "label": "Mettre son pantalon",
+      "category": "habillage",
+      "imageCount": 3,
+      "replacementCount": 1,
+      "generationAndRevisionSeconds": 180,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four fully dressed children hold the trousers at the waistband with upward motion arrows; previous girl-light source matched the action but was replaced for consistent four-profile styling",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-girl-dark.png"
+      ],
+      "replacements": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-girl-dark.png"
       ]
     }
   ]
