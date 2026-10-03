@@ -432,12 +432,6 @@
       "source": "pictograms/assets/famille_quotidien/maison/cf-042.png"
     },
     {
-      "id": "CF-046",
-      "category": "habillage",
-      "profile": "girl_light_color",
-      "source": "pictograms/assets/famille_quotidien/maison/cf-046.png"
-    },
-    {
       "id": "CF-047",
       "category": "habillage",
       "profile": "boy_light_color",
@@ -2035,7 +2029,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-046-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-046",
@@ -2045,7 +2039,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-046-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-046",
@@ -2055,7 +2049,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-046-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-047",
@@ -3835,8 +3829,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 109,
-  "remainingImages": 151,
+  "completedImages": 112,
+  "remainingImages": 148,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4684,6 +4678,28 @@
       ],
       "replacements": [
         "pictograms/assets/famille_quotidien/rebuild/habillage/cf-045-boy-light.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-046"
+      ],
+      "label": "Mettre ses chaussures",
+      "category": "habillage",
+      "imageCount": 3,
+      "replacementCount": 1,
+      "generationAndRevisionSeconds": 180,
+      "resolution": "384x384",
+      "visualCheck": "passed; the seated child wears one shoe and uses both hands to fit the second shoe; four profile variants follow the same action",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-046-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-046-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-046-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-046-girl-dark.png"
+      ],
+      "replacements": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-046-girl-light.png"
       ]
     }
   ]
