@@ -432,12 +432,6 @@
       "source": "pictograms/assets/famille_quotidien/maison/cf-042.png"
     },
     {
-      "id": "CF-045",
-      "category": "habillage",
-      "profile": "boy_light_color",
-      "source": "pictograms/assets/famille_quotidien/maison/cf-045.png"
-    },
-    {
       "id": "CF-046",
       "category": "habillage",
       "profile": "girl_light_color",
@@ -2011,7 +2005,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-045-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-045",
@@ -2021,7 +2015,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-045-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-045",
@@ -2031,7 +2025,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-045-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-046",
@@ -3841,8 +3835,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 106,
-  "remainingImages": 154,
+  "completedImages": 109,
+  "remainingImages": 151,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4667,7 +4661,29 @@
         "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-girl-dark.png"
       ],
       "replacements": [
-        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-girl-dark.png"
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-girl-light.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-045"
+      ],
+      "label": "Mettre ses chaussettes",
+      "category": "habillage",
+      "imageCount": 3,
+      "replacementCount": 1,
+      "generationAndRevisionSeconds": 180,
+      "resolution": "384x384",
+      "visualCheck": "passed; the child has one sock on and pulls the second sock onto the raised foot; all four profiles show the same clear action",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-045-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-045-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-045-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-045-girl-dark.png"
+      ],
+      "replacements": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-045-boy-light.png"
       ]
     }
   ]
