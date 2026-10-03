@@ -1291,7 +1291,8 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-016-boy-light.png",
-      "status": "not_generated"
+      "status": "generated",
+      "committedToWorkBranch": true
     },
     {
       "id": "CF-016",
@@ -1301,7 +1302,8 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-016-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated",
+      "committedToWorkBranch": true
     },
     {
       "id": "CF-017",
@@ -1351,7 +1353,8 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-019-girl-light.png",
-      "status": "not_generated"
+      "status": "generated",
+      "committedToWorkBranch": true
     },
     {
       "id": "CF-019",
@@ -1361,7 +1364,8 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-019-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated",
+      "committedToWorkBranch": true
     },
     {
       "id": "CF-020",
@@ -3841,8 +3845,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 16,
-  "remainingImages": 268,
+  "completedImages": 20,
+  "remainingImages": 264,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -3898,6 +3902,19 @@
         "boy_dark_color"
       ],
       "commit": "4e534a7307075fc04982ca3622ae7cd5ebfc267f"
+    },
+    {
+      "sceneIds": [
+        "CF-016",
+        "CF-019"
+      ],
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "commit": "9b35663cf07fb307834f019938946849e28f418d"
     }
   ]
 }
