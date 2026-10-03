@@ -1849,7 +1849,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-038-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-038",
@@ -1859,7 +1859,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-038-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-039",
@@ -3859,8 +3859,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 88,
-  "remainingImages": 172,
+  "completedImages": 90,
+  "remainingImages": 170,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4522,6 +4522,30 @@
         {
           "source": "pictograms/assets/famille_quotidien/ecole/cf-037.png",
           "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-037-boy-dark.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-038"
+      ],
+      "label": "Faire du sport à l’école",
+      "category": "ecole",
+      "imageCount": 2,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 55,
+      "resolution": "384x384",
+      "visualCheck": "passed; child visibly jumps through gym hoop with coach encouragement; paired boy variants reviewed",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-038-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-038-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-038-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-038.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-038-girl-dark.png"
         }
       ]
     }
