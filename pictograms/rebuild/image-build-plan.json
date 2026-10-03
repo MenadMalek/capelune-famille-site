@@ -1799,7 +1799,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-036-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-036",
@@ -1809,7 +1809,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-036-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-036",
@@ -1819,7 +1819,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-036-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-037",
@@ -3859,8 +3859,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 83,
-  "remainingImages": 177,
+  "completedImages": 86,
+  "remainingImages": 174,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4473,6 +4473,31 @@
         {
           "source": "pictograms/assets/famille_quotidien/ecole/cf-035.png",
           "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-035-boy-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-036"
+      ],
+      "label": "Jouer avec ses camarades",
+      "category": "ecole",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 90,
+      "resolution": "384x384",
+      "visualCheck": "passed; cooperative ball play is clear in all profile versions; each requested profile is represented by the left child",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-036-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-036-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-036-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-036-girl-light.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-036.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-036-girl-light.png"
         }
       ]
     }
