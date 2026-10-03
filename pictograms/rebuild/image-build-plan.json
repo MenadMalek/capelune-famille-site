@@ -2219,7 +2219,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-055-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-055",
@@ -2229,7 +2229,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-055-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-055",
@@ -2239,7 +2239,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-055-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-056",
@@ -3861,8 +3861,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 128,
-  "remainingImages": 100,
+  "completedImages": 131,
+  "remainingImages": 97,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4889,6 +4889,31 @@
         {
           "source": "pictograms/assets/famille_quotidien/maison/cf-054.png",
           "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-054-girl-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-055"
+      ],
+      "label": "Jouer aux cubes",
+      "category": "loisirs",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 83,
+      "resolution": "384x384",
+      "visualCheck": "passed; the child stacks colorful toy blocks into a tower; all four profiles show the same play action",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-055-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-055-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-055-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-055-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-055.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-055-boy-light.png"
         }
       ]
     }
