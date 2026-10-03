@@ -1589,7 +1589,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-028-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-028",
@@ -1599,7 +1599,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-028-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-029",
@@ -3859,8 +3859,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 62,
-  "remainingImages": 198,
+  "completedImages": 64,
+  "remainingImages": 196,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4276,6 +4276,30 @@
         {
           "source": "pictograms/assets/famille_quotidien/ecole/cf-027.png",
           "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-027-boy-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-028"
+      ],
+      "label": "Lire",
+      "category": "ecole",
+      "imageCount": 2,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 60,
+      "resolution": "384x384",
+      "visualCheck": "passed; child clearly attends to open picture book; matched boy variants retain table, book stack, and pencil cup",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-028-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-028-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-028-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-028.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-028-girl-dark.png"
         }
       ]
     }
