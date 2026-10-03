@@ -3,7 +3,7 @@
   "purpose": "Work queue for the complete rebuilt cute pictogram bank; nothing in this plan is wired into the live app.",
   "sourceCommit": "6bdc7888d06874f41e4602d4e7a9f34c37dd55d6",
   "preserveExistingProfileCount": 146,
-  "newImageCount": 260,
+  "newImageCount": 228,
   "reusedAssets": [
     {
       "id": "CF-001",
@@ -2779,7 +2779,8 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-096-boy-light.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-096",
@@ -2789,7 +2790,8 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-096-boy-dark.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-096",
@@ -2799,7 +2801,8 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-096-girl-light.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-096",
@@ -2809,7 +2812,8 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-096-girl-dark.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-097",
@@ -3059,7 +3063,8 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-103-boy-light.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-103",
@@ -3069,7 +3074,8 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-103-boy-dark.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-103",
@@ -3079,7 +3085,8 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-103-girl-light.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-103",
@@ -3089,7 +3096,8 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-103-girl-dark.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-104",
@@ -3099,7 +3107,8 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-104-boy-light.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-104",
@@ -3109,7 +3118,8 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-104-boy-dark.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-104",
@@ -3119,7 +3129,8 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-104-girl-light.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-104",
@@ -3129,7 +3140,8 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-104-girl-dark.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-105",
@@ -3139,7 +3151,8 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-105-boy-light.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-105",
@@ -3149,7 +3162,8 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-105-boy-dark.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-105",
@@ -3159,7 +3173,8 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-105-girl-light.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-105",
@@ -3169,7 +3184,8 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-105-girl-dark.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-106",
@@ -3179,7 +3195,8 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-106-boy-light.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-106",
@@ -3189,7 +3206,8 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-106-boy-dark.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-106",
@@ -3199,7 +3217,8 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-106-girl-light.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-106",
@@ -3209,7 +3228,8 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-106-girl-dark.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-107",
@@ -3219,7 +3239,8 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-107-boy-light.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-107",
@@ -3229,7 +3250,8 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-107-boy-dark.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-107",
@@ -3239,7 +3261,8 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-107-girl-light.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-107",
@@ -3249,7 +3272,8 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-107-girl-dark.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-108",
@@ -3619,7 +3643,8 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-117-boy-light.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-117",
@@ -3629,7 +3654,8 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-117-boy-dark.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-117",
@@ -3639,7 +3665,8 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-117-girl-light.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-117",
@@ -3649,7 +3676,8 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-117-girl-dark.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-118",
@@ -3739,7 +3767,8 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-120-boy-light.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-120",
@@ -3749,7 +3778,8 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-120-boy-dark.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-120",
@@ -3759,7 +3789,8 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-120-girl-light.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-120",
@@ -3769,7 +3800,8 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-120-girl-dark.png",
-      "status": "not_generated"
+      "status": "excluded",
+      "exclusionReason": "User request"
     },
     {
       "id": "CF-121",
@@ -3830,7 +3862,7 @@
     "noPartialIntegration": true
   },
   "completedImages": 128,
-  "remainingImages": 132,
+  "remainingImages": 100,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -4860,5 +4892,54 @@
         }
       ]
     }
-  ]
+  ],
+  "originalNewImageCount": 260,
+  "excludedImageCount": 32,
+  "exclusions": {
+    "date": "2026-10-03",
+    "reason": "User request",
+    "imageCount": 32,
+    "scenes": [
+      {
+        "id": "CF-103",
+        "label": "Être content",
+        "category": "emotions"
+      },
+      {
+        "id": "CF-104",
+        "label": "Être triste",
+        "category": "emotions"
+      },
+      {
+        "id": "CF-105",
+        "label": "Être en colère",
+        "category": "emotions"
+      },
+      {
+        "id": "CF-106",
+        "label": "Être fatigué",
+        "category": "emotions"
+      },
+      {
+        "id": "CF-107",
+        "label": "Être calme",
+        "category": "emotions"
+      },
+      {
+        "id": "CF-117",
+        "label": "S’arrêter au signal",
+        "category": "securite"
+      },
+      {
+        "id": "CF-120",
+        "label": "Rester avec le groupe",
+        "category": "securite"
+      },
+      {
+        "id": "CF-096",
+        "label": "Repas terminé",
+        "category": "repas"
+      }
+    ]
+  }
 }
