@@ -1257,7 +1257,8 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-014-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated",
+      "committedToWorkBranch": true
     },
     {
       "id": "CF-015",
@@ -1267,7 +1268,8 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-015-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated",
+      "committedToWorkBranch": true
     },
     {
       "id": "CF-015",
@@ -1277,7 +1279,8 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-015-girl-light.png",
-      "status": "not_generated"
+      "status": "generated",
+      "committedToWorkBranch": true
     },
     {
       "id": "CF-015",
@@ -1287,7 +1290,8 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-015-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated",
+      "committedToWorkBranch": true
     },
     {
       "id": "CF-016",
@@ -2481,7 +2485,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-088-boy-light.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-088",
@@ -2491,7 +2495,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-088-boy-dark.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-088",
@@ -2501,7 +2505,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-088-girl-light.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-088",
@@ -2511,7 +2515,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-088-girl-dark.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-089",
@@ -2521,7 +2525,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-089-boy-light.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-089",
@@ -2531,7 +2535,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-089-boy-dark.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-089",
@@ -2541,7 +2545,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-089-girl-light.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-089",
@@ -2551,7 +2555,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-089-girl-dark.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-090",
@@ -2561,7 +2565,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-090-boy-light.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-090",
@@ -2571,7 +2575,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-090-boy-dark.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-090",
@@ -2581,7 +2585,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-090-girl-light.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-090",
@@ -2591,7 +2595,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-090-girl-dark.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-091",
@@ -2601,7 +2605,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-091-boy-light.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-091",
@@ -2611,7 +2615,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-091-boy-dark.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-091",
@@ -2621,7 +2625,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-091-girl-light.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-091",
@@ -2631,7 +2635,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-091-girl-dark.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-092",
@@ -2641,7 +2645,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-092-boy-light.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-092",
@@ -2651,7 +2655,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-092-boy-dark.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-092",
@@ -2661,7 +2665,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-092-girl-light.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-092",
@@ -2671,7 +2675,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-092-girl-dark.png",
-      "status": "not_generated"
+      "status": "replaced_by_neutral_shared"
     },
     {
       "id": "CF-093",
@@ -3851,8 +3855,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 31,
-  "remainingImages": 244,
+  "completedImages": 40,
+  "remainingImages": 235,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -3968,6 +3972,47 @@
         "boy_dark_color"
       ],
       "commit": "a99d6898ff8069f8fe0cad6283c97c693143a567"
+    },
+    {
+      "sceneIds": [
+        "CF-014",
+        "CF-015"
+      ],
+      "profiles": [
+        "girl_dark_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "commit": "8009ee952eb3b0fc7ec3646e9d9f21b6c315b9ae"
+    },
+    {
+      "sceneIds": [
+        "CF-088",
+        "CF-089",
+        "CF-090"
+      ],
+      "profiles": [
+        "neutral",
+        "neutral",
+        "neutral"
+      ],
+      "commit": "64e1e8fab1152169e27d5ff9ca5c39423fa3dcaa"
+    },
+    {
+      "sceneIds": [
+        "CF-086",
+        "CF-087",
+        "CF-091",
+        "CF-092"
+      ],
+      "profiles": [
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral"
+      ],
+      "commit": "8b5475730dd8cea4c0448f41846474cd46b77d57"
     }
   ],
   "neutralAssets": [
@@ -4008,9 +4053,33 @@
       "status": "generated"
     },
     {
-      "id": "CF-086",
+      "id": "CF-091",
       "category": "hygiene",
-      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-086-neutral.png",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-091-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-092",
+      "category": "hygiene",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-092-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-086",
+      "category": "toilettes",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-086-neutral.png",
       "profiles": [
         "boy_light_color",
         "boy_dark_color",
@@ -4021,8 +4090,44 @@
     },
     {
       "id": "CF-087",
-      "category": "hygiene",
-      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-087-neutral.png",
+      "category": "toilettes",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-087-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-088",
+      "category": "toilettes",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-088-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-089",
+      "category": "toilettes",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-089-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-090",
+      "category": "toilettes",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-090-neutral.png",
       "profiles": [
         "boy_light_color",
         "boy_dark_color",
