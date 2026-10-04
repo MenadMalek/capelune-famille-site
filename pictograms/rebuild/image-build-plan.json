@@ -3681,7 +3681,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-118-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-118",
@@ -3691,7 +3691,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-118-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-118",
@@ -3701,7 +3701,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-118-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-118",
@@ -3711,7 +3711,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-118-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-119",
@@ -3721,7 +3721,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-119-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-119",
@@ -3731,7 +3731,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-119-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-119",
@@ -3741,7 +3741,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-119-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-119",
@@ -3751,7 +3751,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-119-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-120",
@@ -3805,7 +3805,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-121-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-121",
@@ -3815,7 +3815,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-121-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-121",
@@ -3825,7 +3825,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-121-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-121",
@@ -3835,7 +3835,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-121-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     }
   ],
   "buildRules": {
@@ -3855,8 +3855,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 216,
-  "remainingImages": 12,
+  "completedImages": 228,
+  "remainingImages": 0,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -5380,6 +5380,63 @@
         "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-116-boy-dark.png",
         "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-116-girl-light.png",
         "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-116-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "sceneIds": [
+        "CF-118"
+      ],
+      "label": "Attendre son tour",
+      "category": "securite",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show a child waiting in line while another child uses the slide",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-118-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-118-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-118-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-118-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "sceneIds": [
+        "CF-119"
+      ],
+      "label": "Tenir la main d’un adulte",
+      "category": "securite",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show a child holding the adult's hand while walking on the sidewalk",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-119-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-119-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-119-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-119-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "sceneIds": [
+        "CF-121"
+      ],
+      "label": "Marcher sans courir",
+      "category": "securite",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child walking calmly with a regular stride and no running cues",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-121-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-121-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-121-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-121-girl-dark.png"
       ]
     }
   ],
