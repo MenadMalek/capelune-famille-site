@@ -3397,7 +3397,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-111-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-111",
@@ -3407,7 +3407,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-111-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-111",
@@ -3417,7 +3417,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-111-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-111",
@@ -3427,7 +3427,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-111-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-112",
@@ -3437,7 +3437,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-112-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-112",
@@ -3447,7 +3447,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-112-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-112",
@@ -3457,7 +3457,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-112-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-112",
@@ -3467,7 +3467,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-112-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-113",
@@ -3477,7 +3477,7 @@
       "gender": "boy",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-113-boy-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-113",
@@ -3487,7 +3487,7 @@
       "gender": "boy",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-113-boy-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-113",
@@ -3497,7 +3497,7 @@
       "gender": "girl",
       "skin": "light",
       "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-113-girl-light.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-113",
@@ -3507,7 +3507,7 @@
       "gender": "girl",
       "skin": "dark",
       "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-113-girl-dark.png",
-      "status": "not_generated"
+      "status": "generated"
     },
     {
       "id": "CF-114",
@@ -3855,8 +3855,8 @@
     },
     "noPartialIntegration": true
   },
-  "completedImages": 192,
-  "remainingImages": 36,
+  "completedImages": 204,
+  "remainingImages": 24,
   "firstBatch": {
     "scene": "CF-005 Se brosser les dents",
     "profiles": [
@@ -5266,6 +5266,63 @@
         "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-boy-dark.png",
         "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-girl-light.png",
         "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "sceneIds": [
+        "CF-111"
+      ],
+      "label": "Attacher sa ceinture",
+      "category": "deplacements",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four labeled profiles show a child fastening a shoulder-and-lap seat belt in the back seat, with buckle visible",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-111-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-111-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-111-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-111-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "sceneIds": [
+        "CF-112"
+      ],
+      "label": "Monter en voiture",
+      "category": "deplacements",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four labeled profiles show the child climbing into the passenger seat through the open car door",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-112-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-112-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-112-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-112-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "sceneIds": [
+        "CF-113"
+      ],
+      "label": "Descendre de voiture",
+      "category": "deplacements",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four labeled profiles show the child stepping out through the open car door with one foot on the ground",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-113-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-113-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-113-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-113-girl-dark.png"
       ]
     }
   ],
