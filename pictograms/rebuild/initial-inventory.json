@@ -1,0 +1,1587 @@
+{
+  "inventoryVersion": 1,
+  "generatedFrom": {
+    "repository": "MenadMalek/capelune-famille-site",
+    "branch": "main",
+    "catalogVersion": "0.6.6",
+    "commit": "6bdc7888d06874f41e4602d4e7a9f34c37dd55d6"
+  },
+  "purpose": "Baseline inventory only. Do not use this file as the final bank catalogue.",
+  "profileMatrix": [
+    "boy_light_color",
+    "boy_dark_color",
+    "girl_light_color",
+    "girl_dark_color"
+  ],
+  "currentCuteBank": {
+    "sceneCount": 73,
+    "categoryStats": {
+      "hygiene": {
+        "scenes": 15,
+        "incomplete": 14,
+        "missingProfileSlots": 28
+      },
+      "toilettes": {
+        "scenes": 3,
+        "incomplete": 3,
+        "missingProfileSlots": 8
+      },
+      "habillage": {
+        "scenes": 7,
+        "incomplete": 7,
+        "missingProfileSlots": 17
+      },
+      "maison": {
+        "scenes": 9,
+        "incomplete": 9,
+        "missingProfileSlots": 24
+      },
+      "ecole": {
+        "scenes": 20,
+        "incomplete": 20,
+        "missingProfileSlots": 52
+      },
+      "repas": {
+        "scenes": 5,
+        "incomplete": 1,
+        "missingProfileSlots": 3
+      },
+      "loisirs": {
+        "scenes": 6,
+        "incomplete": 3,
+        "missingProfileSlots": 8
+      },
+      "emotions": {
+        "scenes": 8,
+        "incomplete": 0,
+        "missingProfileSlots": 0
+      }
+    },
+    "scenes": [
+      {
+        "id": "CF-001",
+        "label": "Prendre un bain",
+        "category": "hygiene",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-002",
+        "label": "Prendre une douche",
+        "category": "hygiene",
+        "kind": "neutral_or_character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": []
+      },
+      {
+        "id": "CF-003",
+        "label": "Se laver les cheveux",
+        "category": "hygiene",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-004",
+        "label": "Se rincer les cheveux",
+        "category": "hygiene",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color"
+        ]
+      },
+      {
+        "id": "CF-005",
+        "label": "Se brosser les dents",
+        "category": "hygiene",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-006",
+        "label": "Mettre du dentifrice",
+        "category": "hygiene",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color"
+        ]
+      },
+      {
+        "id": "CF-007",
+        "label": "Se laver les mains",
+        "category": "hygiene",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-008",
+        "label": "Se sécher les mains",
+        "category": "hygiene",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color"
+        ]
+      },
+      {
+        "id": "CF-009",
+        "label": "Se sécher les cheveux",
+        "category": "hygiene",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-010",
+        "label": "Se coiffer",
+        "category": "hygiene",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color"
+        ]
+      },
+      {
+        "id": "CF-011",
+        "label": "Se moucher",
+        "category": "hygiene",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-012",
+        "label": "Jeter son mouchoir",
+        "category": "hygiene",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color"
+        ]
+      },
+      {
+        "id": "CF-013",
+        "label": "Aller aux toilettes",
+        "category": "toilettes",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-014",
+        "label": "Tirer la chasse d’eau",
+        "category": "toilettes",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-015",
+        "label": "Prendre du papier toilette",
+        "category": "toilettes",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": false,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-016",
+        "label": "Se laver le visage",
+        "category": "hygiene",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color"
+        ]
+      },
+      {
+        "id": "CF-017",
+        "label": "Mettre des vêtements propres",
+        "category": "habillage",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-018",
+        "label": "Mettre le linge sale au panier",
+        "category": "maison",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color"
+        ]
+      },
+      {
+        "id": "CF-019",
+        "label": "Couper ses ongles",
+        "category": "hygiene",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-020",
+        "label": "Mettre de la crème solaire",
+        "category": "hygiene",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color"
+        ]
+      },
+      {
+        "id": "CF-021",
+        "label": "Préparer son cartable",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": false,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-022",
+        "label": "Aller à l’école",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color"
+        ]
+      },
+      {
+        "id": "CF-023",
+        "label": "Entrer en classe",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-024",
+        "label": "Dire bonjour",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-025",
+        "label": "Accrocher son manteau",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": false,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-026",
+        "label": "Sortir sa trousse",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-027",
+        "label": "Écrire",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-028",
+        "label": "Lire",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color"
+        ]
+      },
+      {
+        "id": "CF-029",
+        "label": "Écouter l’enseignante",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": false,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-030",
+        "label": "Lever la main",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-031",
+        "label": "Demander de l’aide",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": false,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-032",
+        "label": "Découper",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color"
+        ]
+      },
+      {
+        "id": "CF-033",
+        "label": "Coller",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-034",
+        "label": "Dessiner",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-035",
+        "label": "Aller en récréation",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": false,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-036",
+        "label": "Jouer avec ses camarades",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-037",
+        "label": "Manger à la cantine",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-038",
+        "label": "Faire du sport à l’école",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color"
+        ]
+      },
+      {
+        "id": "CF-039",
+        "label": "Faire ses devoirs",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": false,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-040",
+        "label": "Rentrer de l’école",
+        "category": "ecole",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-041",
+        "label": "Se réveiller",
+        "category": "maison",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": false,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-042",
+        "label": "Faire son lit",
+        "category": "maison",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color"
+        ]
+      },
+      {
+        "id": "CF-043",
+        "label": "Mettre son t-shirt",
+        "category": "habillage",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-044",
+        "label": "Mettre son pantalon",
+        "category": "habillage",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-045",
+        "label": "Mettre ses chaussettes",
+        "category": "habillage",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": false,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-046",
+        "label": "Mettre ses chaussures",
+        "category": "habillage",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-047",
+        "label": "Mettre son manteau",
+        "category": "habillage",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-048",
+        "label": "Prendre son petit déjeuner",
+        "category": "repas",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": []
+      },
+      {
+        "id": "CF-049",
+        "label": "Boire de l’eau",
+        "category": "repas",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": false,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-050",
+        "label": "Mettre la table",
+        "category": "maison",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-051",
+        "label": "Débarrasser la table",
+        "category": "maison",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": false,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-052",
+        "label": "Prendre son goûter",
+        "category": "repas",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": []
+      },
+      {
+        "id": "CF-053",
+        "label": "Ranger ses jouets",
+        "category": "maison",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-054",
+        "label": "Ranger sa chambre",
+        "category": "maison",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-055",
+        "label": "Jouer aux cubes",
+        "category": "loisirs",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": false,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-056",
+        "label": "Faire un puzzle",
+        "category": "loisirs",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-057",
+        "label": "Lire une histoire",
+        "category": "loisirs",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-058",
+        "label": "Mettre son pyjama",
+        "category": "habillage",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color"
+        ]
+      },
+      {
+        "id": "CF-059",
+        "label": "Se coucher",
+        "category": "maison",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": false,
+          "girl_light_color": false,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_dark_color",
+          "girl_light_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-060",
+        "label": "Éteindre la lumière",
+        "category": "maison",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": false,
+          "boy_dark_color": false,
+          "girl_light_color": true,
+          "girl_dark_color": false
+        },
+        "missingProfiles": [
+          "boy_light_color",
+          "boy_dark_color",
+          "girl_dark_color"
+        ]
+      },
+      {
+        "id": "CF-061",
+        "label": "Prendre son déjeuner",
+        "category": "repas",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": []
+      },
+      {
+        "id": "CF-062",
+        "label": "Prendre son dîner",
+        "category": "repas",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": []
+      },
+      {
+        "id": "CF-063",
+        "label": "Faire du vélo",
+        "category": "loisirs",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": []
+      },
+      {
+        "id": "CF-064",
+        "label": "Faire de la trottinette",
+        "category": "loisirs",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": []
+      },
+      {
+        "id": "CF-065",
+        "label": "Jouer au football",
+        "category": "loisirs",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": []
+      },
+      {
+        "id": "CF-078",
+        "label": "Être content en jouant aux cubes",
+        "category": "emotions",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": []
+      },
+      {
+        "id": "CF-079",
+        "label": "Être déçu en rangeant ses jouets",
+        "category": "emotions",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": []
+      },
+      {
+        "id": "CF-080",
+        "label": "S’ennuyer pendant un jeu de société",
+        "category": "emotions",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": []
+      },
+      {
+        "id": "CF-081",
+        "label": "Se calmer avec un coussin",
+        "category": "emotions",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": []
+      },
+      {
+        "id": "CF-082",
+        "label": "Être content à la cantine",
+        "category": "emotions",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": []
+      },
+      {
+        "id": "CF-083",
+        "label": "Être content pendant une activité sportive",
+        "category": "emotions",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": []
+      },
+      {
+        "id": "CF-084",
+        "label": "Se détendre en écoutant de la musique",
+        "category": "emotions",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": []
+      },
+      {
+        "id": "CF-085",
+        "label": "Être content de retrouver son enseignante",
+        "category": "emotions",
+        "kind": "character",
+        "variants": {
+          "boy_light_color": true,
+          "boy_dark_color": true,
+          "girl_light_color": true,
+          "girl_dark_color": true
+        },
+        "missingProfiles": []
+      }
+    ]
+  },
+  "otherIntegratedPictograms": [
+    {
+      "id": "EA-VQ-001",
+      "label": "Aller aux toilettes",
+      "category": "toilettes",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-002",
+      "label": "Baisser le pantalon",
+      "category": "toilettes",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-003",
+      "label": "S’asseoir sur les toilettes",
+      "category": "toilettes",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-004",
+      "label": "Utiliser le papier toilette",
+      "category": "toilettes",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-005",
+      "label": "S’essuyer",
+      "category": "toilettes",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-006",
+      "label": "Tirer la chasse d’eau",
+      "category": "toilettes",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-007",
+      "label": "Remonter le pantalon",
+      "category": "toilettes",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-008",
+      "label": "Se laver les mains",
+      "category": "toilettes",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-009",
+      "label": "Se brosser les dents",
+      "category": "hygiene",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-010",
+      "label": "Prendre une douche",
+      "category": "hygiene",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-011",
+      "label": "Se laver les cheveux",
+      "category": "hygiene",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-012",
+      "label": "Se laver le visage",
+      "category": "hygiene",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-013",
+      "label": "Se sécher avec une serviette",
+      "category": "hygiene",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-014",
+      "label": "Mettre du déodorant",
+      "category": "hygiene",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-015",
+      "label": "Mettre le t-shirt",
+      "category": "habillage",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-016",
+      "label": "Mettre le pantalon",
+      "category": "habillage",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-017",
+      "label": "Mettre les chaussettes",
+      "category": "habillage",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-018",
+      "label": "Mettre les chaussures",
+      "category": "habillage",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-019",
+      "label": "Mettre la veste",
+      "category": "habillage",
+      "collection": null
+    },
+    {
+      "id": "EA-VQ-020",
+      "label": "S’habiller complètement",
+      "category": "habillage",
+      "collection": null
+    },
+    {
+      "id": "EA-REP-001",
+      "label": "Manger",
+      "category": "repas",
+      "collection": null
+    },
+    {
+      "id": "EA-REP-002",
+      "label": "Boire",
+      "category": "repas",
+      "collection": null
+    },
+    {
+      "id": "EA-REP-003",
+      "label": "Petit-déjeuner",
+      "category": "repas",
+      "collection": null
+    },
+    {
+      "id": "EA-REP-004",
+      "label": "Goûter",
+      "category": "repas",
+      "collection": null
+    },
+    {
+      "id": "EA-REP-005",
+      "label": "Repas terminé",
+      "category": "repas",
+      "collection": null
+    },
+    {
+      "id": "EA-ECO-001",
+      "label": "Aller à l’école",
+      "category": "ecole",
+      "collection": null
+    },
+    {
+      "id": "EA-ECO-002",
+      "label": "Travailler en classe",
+      "category": "ecole",
+      "collection": null
+    },
+    {
+      "id": "EA-ECO-003",
+      "label": "Faire ses devoirs",
+      "category": "ecole",
+      "collection": null
+    },
+    {
+      "id": "EA-ECO-004",
+      "label": "Lire",
+      "category": "ecole",
+      "collection": null
+    },
+    {
+      "id": "EA-ECO-005",
+      "label": "Ranger son cartable",
+      "category": "ecole",
+      "collection": null
+    },
+    {
+      "id": "EA-LOI-001",
+      "label": "Jouer",
+      "category": "loisirs",
+      "collection": null
+    },
+    {
+      "id": "EA-LOI-002",
+      "label": "Regarder un écran",
+      "category": "loisirs",
+      "collection": null
+    },
+    {
+      "id": "EA-LOI-003",
+      "label": "Faire du sport",
+      "category": "loisirs",
+      "collection": null
+    },
+    {
+      "id": "EA-LOI-004",
+      "label": "Dessiner",
+      "category": "loisirs",
+      "collection": null
+    },
+    {
+      "id": "EA-LOI-005",
+      "label": "Écouter de la musique",
+      "category": "loisirs",
+      "collection": null
+    },
+    {
+      "id": "EA-EMO-001",
+      "label": "Content / contente",
+      "category": "emotions",
+      "collection": null
+    },
+    {
+      "id": "EA-EMO-002",
+      "label": "Triste",
+      "category": "emotions",
+      "collection": null
+    },
+    {
+      "id": "EA-EMO-003",
+      "label": "En colère",
+      "category": "emotions",
+      "collection": null
+    },
+    {
+      "id": "EA-EMO-004",
+      "label": "Fatigué / fatiguée",
+      "category": "emotions",
+      "collection": null
+    },
+    {
+      "id": "EA-EMO-005",
+      "label": "Calme",
+      "category": "emotions",
+      "collection": null
+    },
+    {
+      "id": "EA-MAI-001",
+      "label": "Faire son lit",
+      "category": "maison",
+      "collection": null
+    },
+    {
+      "id": "EA-MAI-002",
+      "label": "Ranger sa chambre",
+      "category": "maison",
+      "collection": null
+    },
+    {
+      "id": "EA-MAI-003",
+      "label": "Mettre le linge sale au panier",
+      "category": "maison",
+      "collection": null
+    },
+    {
+      "id": "EA-MAI-004",
+      "label": "Plier les vêtements",
+      "category": "maison",
+      "collection": null
+    },
+    {
+      "id": "EA-MAI-005",
+      "label": "Mettre la table",
+      "category": "maison",
+      "collection": null
+    },
+    {
+      "id": "EA-MAI-006",
+      "label": "Débarrasser la table",
+      "category": "maison",
+      "collection": null
+    },
+    {
+      "id": "EA-MAI-007",
+      "label": "Jeter à la poubelle",
+      "category": "maison",
+      "collection": null
+    },
+    {
+      "id": "EA-MAI-008",
+      "label": "Nettoyer la table",
+      "category": "maison",
+      "collection": null
+    },
+    {
+      "id": "EA-DEP-001",
+      "label": "Attacher la ceinture",
+      "category": "deplacements",
+      "collection": null
+    },
+    {
+      "id": "EA-DEP-002",
+      "label": "Monter en voiture",
+      "category": "deplacements",
+      "collection": null
+    },
+    {
+      "id": "EA-DEP-003",
+      "label": "Descendre de voiture",
+      "category": "deplacements",
+      "collection": null
+    },
+    {
+      "id": "EA-DEP-004",
+      "label": "Traverser avec un adulte",
+      "category": "deplacements",
+      "collection": null
+    },
+    {
+      "id": "EA-DEP-005",
+      "label": "Attendre le bus",
+      "category": "deplacements",
+      "collection": null
+    },
+    {
+      "id": "EA-DEP-006",
+      "label": "Monter dans le bus",
+      "category": "deplacements",
+      "collection": null
+    },
+    {
+      "id": "EA-SEC-001",
+      "label": "Stop",
+      "category": "securite",
+      "collection": null
+    },
+    {
+      "id": "EA-SEC-002",
+      "label": "Attendre",
+      "category": "securite",
+      "collection": null
+    },
+    {
+      "id": "EA-SEC-003",
+      "label": "Tenir la main",
+      "category": "securite",
+      "collection": null
+    },
+    {
+      "id": "EA-SEC-004",
+      "label": "Demander de l’aide",
+      "category": "securite",
+      "collection": null
+    },
+    {
+      "id": "EA-SEC-005",
+      "label": "Rester avec le groupe",
+      "category": "securite",
+      "collection": null
+    },
+    {
+      "id": "EA-SEC-006",
+      "label": "Ne pas courir",
+      "category": "securite",
+      "collection": null
+    }
+  ],
+  "knownScopeGaps": [
+    "The cute collection has no entries in deplacements or securite although these categories exist in the app catalogue.",
+    "Review overlaps between existing cute scenes and the other integrated pictograms before defining the rebuilt scene set."
+  ],
+  "constraints": {
+    "exclude": [
+      "protection_enfance"
+    ],
+    "offlineLocalAssets": true,
+    "explicitVariants": [
+      "girl_light_color",
+      "girl_dark_color",
+      "boy_light_color",
+      "boy_dark_color"
+    ]
+  }
+}

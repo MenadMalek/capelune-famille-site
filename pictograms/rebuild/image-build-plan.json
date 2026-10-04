@@ -1,0 +1,5492 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Work queue for the complete rebuilt cute pictogram bank; nothing in this plan is wired into the live app.",
+  "sourceCommit": "6bdc7888d06874f41e4602d4e7a9f34c37dd55d6",
+  "preserveExistingProfileCount": 146,
+  "newImageCount": 228,
+  "reusedAssets": [
+    {
+      "id": "CF-001",
+      "category": "hygiene",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-001.png"
+    },
+    {
+      "id": "CF-001",
+      "category": "hygiene",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-001-boy-dark.png"
+    },
+    {
+      "id": "CF-002",
+      "category": "hygiene",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-002.png"
+    },
+    {
+      "id": "CF-002",
+      "category": "hygiene",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-002.png"
+    },
+    {
+      "id": "CF-002",
+      "category": "hygiene",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-002.png"
+    },
+    {
+      "id": "CF-002",
+      "category": "hygiene",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-002.png"
+    },
+    {
+      "id": "CF-003",
+      "category": "hygiene",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-003-boy-light.png"
+    },
+    {
+      "id": "CF-003",
+      "category": "hygiene",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-003.png"
+    },
+    {
+      "id": "CF-004",
+      "category": "hygiene",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-004.png"
+    },
+    {
+      "id": "CF-004",
+      "category": "hygiene",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-004-girl-dark.png"
+    },
+    {
+      "id": "CF-005",
+      "category": "hygiene",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-005.png"
+    },
+    {
+      "id": "CF-005",
+      "category": "hygiene",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-005-boy-dark.png"
+    },
+    {
+      "id": "CF-006",
+      "category": "hygiene",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-006.png"
+    },
+    {
+      "id": "CF-006",
+      "category": "hygiene",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-006-girl-dark.png"
+    },
+    {
+      "id": "CF-007",
+      "category": "hygiene",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-007-boy-light.png"
+    },
+    {
+      "id": "CF-007",
+      "category": "hygiene",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-007.png"
+    },
+    {
+      "id": "CF-008",
+      "category": "hygiene",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-008-girl-light.png"
+    },
+    {
+      "id": "CF-008",
+      "category": "hygiene",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-008.png"
+    },
+    {
+      "id": "CF-009",
+      "category": "hygiene",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-009.png"
+    },
+    {
+      "id": "CF-009",
+      "category": "hygiene",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-009-boy-dark.png"
+    },
+    {
+      "id": "CF-010",
+      "category": "hygiene",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-010.png"
+    },
+    {
+      "id": "CF-010",
+      "category": "hygiene",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-010-girl-dark.png"
+    },
+    {
+      "id": "CF-011",
+      "category": "hygiene",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-011.png"
+    },
+    {
+      "id": "CF-011",
+      "category": "hygiene",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-011-boy-dark.png"
+    },
+    {
+      "id": "CF-012",
+      "category": "hygiene",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-012-girl-light.png"
+    },
+    {
+      "id": "CF-012",
+      "category": "hygiene",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-012.png"
+    },
+    {
+      "id": "CF-013",
+      "category": "toilettes",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-013-boy-light.png"
+    },
+    {
+      "id": "CF-013",
+      "category": "toilettes",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-013.png"
+    },
+    {
+      "id": "CF-014",
+      "category": "toilettes",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-014.png"
+    },
+    {
+      "id": "CF-015",
+      "category": "toilettes",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-015.png"
+    },
+    {
+      "id": "CF-016",
+      "category": "hygiene",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-016.png"
+    },
+    {
+      "id": "CF-016",
+      "category": "hygiene",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-016-girl-dark.png"
+    },
+    {
+      "id": "CF-017",
+      "category": "habillage",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-017-boy-light.png"
+    },
+    {
+      "id": "CF-017",
+      "category": "habillage",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-017.png"
+    },
+    {
+      "id": "CF-018",
+      "category": "maison",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-018-girl-light.png"
+    },
+    {
+      "id": "CF-018",
+      "category": "maison",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-018.png"
+    },
+    {
+      "id": "CF-019",
+      "category": "hygiene",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-019.png"
+    },
+    {
+      "id": "CF-019",
+      "category": "hygiene",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-019-boy-dark.png"
+    },
+    {
+      "id": "CF-020",
+      "category": "hygiene",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-020.png"
+    },
+    {
+      "id": "CF-020",
+      "category": "hygiene",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/hygiene/cf-020-girl-dark.png"
+    },
+    {
+      "id": "CF-021",
+      "category": "ecole",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-021.png"
+    },
+    {
+      "id": "CF-022",
+      "category": "ecole",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-022-girl-light.png"
+    },
+    {
+      "id": "CF-022",
+      "category": "ecole",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-022.png"
+    },
+    {
+      "id": "CF-023",
+      "category": "ecole",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-023-boy-light.png"
+    },
+    {
+      "id": "CF-023",
+      "category": "ecole",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-023.png"
+    },
+    {
+      "id": "CF-024",
+      "category": "ecole",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-024.png"
+    },
+    {
+      "id": "CF-025",
+      "category": "ecole",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-025.png"
+    },
+    {
+      "id": "CF-026",
+      "category": "ecole",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-026.png"
+    },
+    {
+      "id": "CF-027",
+      "category": "ecole",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-027-boy-light.png"
+    },
+    {
+      "id": "CF-027",
+      "category": "ecole",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-027.png"
+    },
+    {
+      "id": "CF-028",
+      "category": "ecole",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-028-girl-light.png"
+    },
+    {
+      "id": "CF-028",
+      "category": "ecole",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-028.png"
+    },
+    {
+      "id": "CF-029",
+      "category": "ecole",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-029.png"
+    },
+    {
+      "id": "CF-030",
+      "category": "ecole",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-030.png"
+    },
+    {
+      "id": "CF-031",
+      "category": "ecole",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-031.png"
+    },
+    {
+      "id": "CF-032",
+      "category": "ecole",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-032-girl-light.png"
+    },
+    {
+      "id": "CF-032",
+      "category": "ecole",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-032.png"
+    },
+    {
+      "id": "CF-033",
+      "category": "ecole",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-033-boy-light.png"
+    },
+    {
+      "id": "CF-033",
+      "category": "ecole",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-033.png"
+    },
+    {
+      "id": "CF-034",
+      "category": "ecole",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-034.png"
+    },
+    {
+      "id": "CF-035",
+      "category": "ecole",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-035.png"
+    },
+    {
+      "id": "CF-036",
+      "category": "ecole",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-036.png"
+    },
+    {
+      "id": "CF-037",
+      "category": "ecole",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-037-boy-light.png"
+    },
+    {
+      "id": "CF-037",
+      "category": "ecole",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-037.png"
+    },
+    {
+      "id": "CF-038",
+      "category": "ecole",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-038-girl-light.png"
+    },
+    {
+      "id": "CF-038",
+      "category": "ecole",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-038.png"
+    },
+    {
+      "id": "CF-039",
+      "category": "ecole",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-039.png"
+    },
+    {
+      "id": "CF-040",
+      "category": "ecole",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/ecole/cf-040.png"
+    },
+    {
+      "id": "CF-041",
+      "category": "maison",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-041.png"
+    },
+    {
+      "id": "CF-042",
+      "category": "maison",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-042-girl-light.png"
+    },
+    {
+      "id": "CF-042",
+      "category": "maison",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-042.png"
+    },
+    {
+      "id": "CF-047",
+      "category": "habillage",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-047-boy-light.png"
+    },
+    {
+      "id": "CF-047",
+      "category": "habillage",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-047.png"
+    },
+    {
+      "id": "CF-048",
+      "category": "repas",
+      "profile": "boy_light_color",
+      "source": {
+        "inlineKey": "cf-048-boy-light"
+      }
+    },
+    {
+      "id": "CF-048",
+      "category": "repas",
+      "profile": "boy_dark_color",
+      "source": {
+        "inlineKey": "cf-048-boy-dark"
+      }
+    },
+    {
+      "id": "CF-048",
+      "category": "repas",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-048-girl-light.png"
+    },
+    {
+      "id": "CF-048",
+      "category": "repas",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-048.png"
+    },
+    {
+      "id": "CF-049",
+      "category": "repas",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-049.png"
+    },
+    {
+      "id": "CF-050",
+      "category": "maison",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-050.png"
+    },
+    {
+      "id": "CF-051",
+      "category": "maison",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-051.png"
+    },
+    {
+      "id": "CF-052",
+      "category": "repas",
+      "profile": "boy_light_color",
+      "source": {
+        "inlineKey": "cf-052-boy-light"
+      }
+    },
+    {
+      "id": "CF-052",
+      "category": "repas",
+      "profile": "boy_dark_color",
+      "source": {
+        "inlineKey": "cf-052-boy-dark"
+      }
+    },
+    {
+      "id": "CF-052",
+      "category": "repas",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-052-girl-light.png"
+    },
+    {
+      "id": "CF-052",
+      "category": "repas",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-052.png"
+    },
+    {
+      "id": "CF-053",
+      "category": "maison",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-053-boy-light.png"
+    },
+    {
+      "id": "CF-053",
+      "category": "maison",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-053.png"
+    },
+    {
+      "id": "CF-054",
+      "category": "maison",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-054.png"
+    },
+    {
+      "id": "CF-055",
+      "category": "loisirs",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-055.png"
+    },
+    {
+      "id": "CF-056",
+      "category": "loisirs",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-056.png"
+    },
+    {
+      "id": "CF-057",
+      "category": "loisirs",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-057.png"
+    },
+    {
+      "id": "CF-058",
+      "category": "habillage",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-058-girl-light.png"
+    },
+    {
+      "id": "CF-058",
+      "category": "habillage",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-058.png"
+    },
+    {
+      "id": "CF-059",
+      "category": "maison",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-059.png"
+    },
+    {
+      "id": "CF-060",
+      "category": "maison",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/maison/cf-060.png"
+    },
+    {
+      "id": "CF-061",
+      "category": "repas",
+      "profile": "boy_light_color",
+      "source": {
+        "inlineKey": "cf-061-boy-light"
+      }
+    },
+    {
+      "id": "CF-061",
+      "category": "repas",
+      "profile": "boy_dark_color",
+      "source": {
+        "inlineKey": "cf-061-boy-dark"
+      }
+    },
+    {
+      "id": "CF-061",
+      "category": "repas",
+      "profile": "girl_light_color",
+      "source": {
+        "inlineKey": "cf-061-girl-light"
+      }
+    },
+    {
+      "id": "CF-061",
+      "category": "repas",
+      "profile": "girl_dark_color",
+      "source": {
+        "inlineKey": "cf-061-girl-dark"
+      }
+    },
+    {
+      "id": "CF-062",
+      "category": "repas",
+      "profile": "boy_light_color",
+      "source": {
+        "inlineKey": "cf-062-boy-light"
+      }
+    },
+    {
+      "id": "CF-062",
+      "category": "repas",
+      "profile": "boy_dark_color",
+      "source": {
+        "inlineKey": "cf-062-boy-dark"
+      }
+    },
+    {
+      "id": "CF-062",
+      "category": "repas",
+      "profile": "girl_light_color",
+      "source": {
+        "inlineKey": "cf-062-girl-light"
+      }
+    },
+    {
+      "id": "CF-062",
+      "category": "repas",
+      "profile": "girl_dark_color",
+      "source": {
+        "inlineKey": "cf-062-girl-dark"
+      }
+    },
+    {
+      "id": "CF-063",
+      "category": "loisirs",
+      "profile": "boy_light_color",
+      "source": {
+        "inlineKey": "cf-063-boy-light"
+      }
+    },
+    {
+      "id": "CF-063",
+      "category": "loisirs",
+      "profile": "boy_dark_color",
+      "source": {
+        "inlineKey": "cf-063-boy-dark"
+      }
+    },
+    {
+      "id": "CF-063",
+      "category": "loisirs",
+      "profile": "girl_light_color",
+      "source": {
+        "inlineKey": "cf-063-girl-light"
+      }
+    },
+    {
+      "id": "CF-063",
+      "category": "loisirs",
+      "profile": "girl_dark_color",
+      "source": {
+        "inlineKey": "cf-063-girl-dark"
+      }
+    },
+    {
+      "id": "CF-064",
+      "category": "loisirs",
+      "profile": "boy_light_color",
+      "source": {
+        "inlineKey": "cf-064-boy-light"
+      }
+    },
+    {
+      "id": "CF-064",
+      "category": "loisirs",
+      "profile": "boy_dark_color",
+      "source": {
+        "inlineKey": "cf-064-boy-dark"
+      }
+    },
+    {
+      "id": "CF-064",
+      "category": "loisirs",
+      "profile": "girl_light_color",
+      "source": {
+        "inlineKey": "cf-064-girl-light"
+      }
+    },
+    {
+      "id": "CF-064",
+      "category": "loisirs",
+      "profile": "girl_dark_color",
+      "source": {
+        "inlineKey": "cf-064-girl-dark"
+      }
+    },
+    {
+      "id": "CF-065",
+      "category": "loisirs",
+      "profile": "boy_light_color",
+      "source": {
+        "inlineKey": "cf-065-boy-light"
+      }
+    },
+    {
+      "id": "CF-065",
+      "category": "loisirs",
+      "profile": "boy_dark_color",
+      "source": {
+        "inlineKey": "cf-065-boy-dark"
+      }
+    },
+    {
+      "id": "CF-065",
+      "category": "loisirs",
+      "profile": "girl_light_color",
+      "source": {
+        "inlineKey": "cf-065-girl-light"
+      }
+    },
+    {
+      "id": "CF-065",
+      "category": "loisirs",
+      "profile": "girl_dark_color",
+      "source": {
+        "inlineKey": "cf-065-girl-dark"
+      }
+    },
+    {
+      "id": "CF-078",
+      "category": "emotions",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-078-boy-light.png"
+    },
+    {
+      "id": "CF-078",
+      "category": "emotions",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-078-boy-dark.png"
+    },
+    {
+      "id": "CF-078",
+      "category": "emotions",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-078-girl-light.png"
+    },
+    {
+      "id": "CF-078",
+      "category": "emotions",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-078-girl-dark.png"
+    },
+    {
+      "id": "CF-079",
+      "category": "emotions",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-079-boy-light.png"
+    },
+    {
+      "id": "CF-079",
+      "category": "emotions",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-079-boy-dark.png"
+    },
+    {
+      "id": "CF-079",
+      "category": "emotions",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-079-girl-light.png"
+    },
+    {
+      "id": "CF-079",
+      "category": "emotions",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-079-girl-dark.png"
+    },
+    {
+      "id": "CF-080",
+      "category": "emotions",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-080-boy-light.png"
+    },
+    {
+      "id": "CF-080",
+      "category": "emotions",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-080-boy-dark.png"
+    },
+    {
+      "id": "CF-080",
+      "category": "emotions",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-080-girl-light.png"
+    },
+    {
+      "id": "CF-080",
+      "category": "emotions",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-080-girl-dark.png"
+    },
+    {
+      "id": "CF-081",
+      "category": "emotions",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-081-boy-light.png"
+    },
+    {
+      "id": "CF-081",
+      "category": "emotions",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-081-boy-dark.png"
+    },
+    {
+      "id": "CF-081",
+      "category": "emotions",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-081-girl-light.png"
+    },
+    {
+      "id": "CF-081",
+      "category": "emotions",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-081-girl-dark.png"
+    },
+    {
+      "id": "CF-082",
+      "category": "emotions",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-082-boy-light.png"
+    },
+    {
+      "id": "CF-082",
+      "category": "emotions",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-082-boy-dark.png"
+    },
+    {
+      "id": "CF-082",
+      "category": "emotions",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-082-girl-light.png"
+    },
+    {
+      "id": "CF-082",
+      "category": "emotions",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-082-girl-dark.png"
+    },
+    {
+      "id": "CF-083",
+      "category": "emotions",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-083-boy-light.png"
+    },
+    {
+      "id": "CF-083",
+      "category": "emotions",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-083-boy-dark.png"
+    },
+    {
+      "id": "CF-083",
+      "category": "emotions",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-083-girl-light.png"
+    },
+    {
+      "id": "CF-083",
+      "category": "emotions",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-083-girl-dark.png"
+    },
+    {
+      "id": "CF-084",
+      "category": "emotions",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-084-boy-light.png"
+    },
+    {
+      "id": "CF-084",
+      "category": "emotions",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-084-boy-dark.png"
+    },
+    {
+      "id": "CF-084",
+      "category": "emotions",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-084-girl-light.png"
+    },
+    {
+      "id": "CF-084",
+      "category": "emotions",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-084-girl-dark.png"
+    },
+    {
+      "id": "CF-085",
+      "category": "emotions",
+      "profile": "boy_light_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-085-boy-light.png"
+    },
+    {
+      "id": "CF-085",
+      "category": "emotions",
+      "profile": "boy_dark_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-085-boy-dark.png"
+    },
+    {
+      "id": "CF-085",
+      "category": "emotions",
+      "profile": "girl_light_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-085-girl-light.png"
+    },
+    {
+      "id": "CF-085",
+      "category": "emotions",
+      "profile": "girl_dark_color",
+      "source": "pictograms/assets/famille_quotidien/emotions/cf-085-girl-dark.png"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "CF-001",
+      "category": "hygiene",
+      "label": "Prendre un bain",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-001-girl-light.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-001",
+      "category": "hygiene",
+      "label": "Prendre un bain",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-001-girl-dark.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-003",
+      "category": "hygiene",
+      "label": "Se laver les cheveux",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-003-girl-light.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-003",
+      "category": "hygiene",
+      "label": "Se laver les cheveux",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-003-girl-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-004",
+      "category": "hygiene",
+      "label": "Se rincer les cheveux",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-004-boy-light.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-004",
+      "category": "hygiene",
+      "label": "Se rincer les cheveux",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-004-boy-dark.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-005",
+      "category": "hygiene",
+      "label": "Se brosser les dents",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-005-girl-light.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-005",
+      "category": "hygiene",
+      "label": "Se brosser les dents",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-005-girl-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-006",
+      "category": "hygiene",
+      "label": "Mettre du dentifrice",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-006-boy-light.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-006",
+      "category": "hygiene",
+      "label": "Mettre du dentifrice",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-006-boy-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-007",
+      "category": "hygiene",
+      "label": "Se laver les mains",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-007-girl-light.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-007",
+      "category": "hygiene",
+      "label": "Se laver les mains",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-007-girl-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-008",
+      "category": "hygiene",
+      "label": "Se sécher les mains",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-008-boy-light.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-008",
+      "category": "hygiene",
+      "label": "Se sécher les mains",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-008-boy-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-009",
+      "category": "hygiene",
+      "label": "Se sécher les cheveux",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-009-girl-light.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-009",
+      "category": "hygiene",
+      "label": "Se sécher les cheveux",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-009-girl-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-010",
+      "category": "hygiene",
+      "label": "Se coiffer",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-010-boy-light.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-010",
+      "category": "hygiene",
+      "label": "Se coiffer",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-010-boy-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-011",
+      "category": "hygiene",
+      "label": "Se moucher",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-011-girl-light.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-011",
+      "category": "hygiene",
+      "label": "Se moucher",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-011-girl-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-012",
+      "category": "hygiene",
+      "label": "Jeter son mouchoir",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-012-boy-light.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-012",
+      "category": "hygiene",
+      "label": "Jeter son mouchoir",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-012-boy-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-013",
+      "category": "toilettes",
+      "label": "Aller aux toilettes",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-013-girl-light.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-013",
+      "category": "toilettes",
+      "label": "Aller aux toilettes",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-013-girl-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-014",
+      "category": "toilettes",
+      "label": "Tirer la chasse d’eau",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-014-boy-light.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-014",
+      "category": "toilettes",
+      "label": "Tirer la chasse d’eau",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-014-boy-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-014",
+      "category": "toilettes",
+      "label": "Tirer la chasse d’eau",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-014-girl-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-015",
+      "category": "toilettes",
+      "label": "Prendre du papier toilette",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-015-boy-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-015",
+      "category": "toilettes",
+      "label": "Prendre du papier toilette",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-015-girl-light.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-015",
+      "category": "toilettes",
+      "label": "Prendre du papier toilette",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-015-girl-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-016",
+      "category": "hygiene",
+      "label": "Se laver le visage",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-016-boy-light.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-016",
+      "category": "hygiene",
+      "label": "Se laver le visage",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-016-boy-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-017",
+      "category": "habillage",
+      "label": "Mettre des vêtements propres",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-017-girl-light.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-017",
+      "category": "habillage",
+      "label": "Mettre des vêtements propres",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-017-girl-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-018",
+      "category": "maison",
+      "label": "Mettre le linge sale au panier",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-018-boy-light.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-018",
+      "category": "maison",
+      "label": "Mettre le linge sale au panier",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-018-boy-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-019",
+      "category": "hygiene",
+      "label": "Couper ses ongles",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-019-girl-light.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-019",
+      "category": "hygiene",
+      "label": "Couper ses ongles",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-019-girl-dark.png",
+      "status": "generated",
+      "committedToWorkBranch": true
+    },
+    {
+      "id": "CF-020",
+      "category": "hygiene",
+      "label": "Mettre de la crème solaire",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-020-boy-light.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-020",
+      "category": "hygiene",
+      "label": "Mettre de la crème solaire",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-020-boy-dark.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-021",
+      "category": "ecole",
+      "label": "Préparer son cartable",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-021-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-021",
+      "category": "ecole",
+      "label": "Préparer son cartable",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-021-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-021",
+      "category": "ecole",
+      "label": "Préparer son cartable",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-021-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-022",
+      "category": "ecole",
+      "label": "Aller à l’école",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-022-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-022",
+      "category": "ecole",
+      "label": "Aller à l’école",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-022-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-023",
+      "category": "ecole",
+      "label": "Entrer en classe",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-023-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-023",
+      "category": "ecole",
+      "label": "Entrer en classe",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-023-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-024",
+      "category": "ecole",
+      "label": "Dire bonjour",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-024-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-024",
+      "category": "ecole",
+      "label": "Dire bonjour",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-024-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-024",
+      "category": "ecole",
+      "label": "Dire bonjour",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-024-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-025",
+      "category": "ecole",
+      "label": "Accrocher son manteau",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-025-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-025",
+      "category": "ecole",
+      "label": "Accrocher son manteau",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-025-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-025",
+      "category": "ecole",
+      "label": "Accrocher son manteau",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-025-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-026",
+      "category": "ecole",
+      "label": "Sortir sa trousse",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-026-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-026",
+      "category": "ecole",
+      "label": "Sortir sa trousse",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-026-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-026",
+      "category": "ecole",
+      "label": "Sortir sa trousse",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-026-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-027",
+      "category": "ecole",
+      "label": "Écrire",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-027-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-027",
+      "category": "ecole",
+      "label": "Écrire",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-027-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-028",
+      "category": "ecole",
+      "label": "Lire",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-028-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-028",
+      "category": "ecole",
+      "label": "Lire",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-028-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-029",
+      "category": "ecole",
+      "label": "Écouter l’enseignante",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-029-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-029",
+      "category": "ecole",
+      "label": "Écouter l’enseignante",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-029-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-029",
+      "category": "ecole",
+      "label": "Écouter l’enseignante",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-029-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-030",
+      "category": "ecole",
+      "label": "Lever la main",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-030-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-030",
+      "category": "ecole",
+      "label": "Lever la main",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-030-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-030",
+      "category": "ecole",
+      "label": "Lever la main",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-030-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-031",
+      "category": "ecole",
+      "label": "Demander de l’aide",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-031-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-031",
+      "category": "ecole",
+      "label": "Demander de l’aide",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-031-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-031",
+      "category": "ecole",
+      "label": "Demander de l’aide",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-031-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-032",
+      "category": "ecole",
+      "label": "Découper",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-032-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-032",
+      "category": "ecole",
+      "label": "Découper",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-032-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-033",
+      "category": "ecole",
+      "label": "Coller",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-033-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-033",
+      "category": "ecole",
+      "label": "Coller",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-033-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-034",
+      "category": "ecole",
+      "label": "Dessiner",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-034-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-034",
+      "category": "ecole",
+      "label": "Dessiner",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-034-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-034",
+      "category": "ecole",
+      "label": "Dessiner",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-034-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-035",
+      "category": "ecole",
+      "label": "Aller en récréation",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-035-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-035",
+      "category": "ecole",
+      "label": "Aller en récréation",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-035-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-035",
+      "category": "ecole",
+      "label": "Aller en récréation",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-035-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-036",
+      "category": "ecole",
+      "label": "Jouer avec ses camarades",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-036-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-036",
+      "category": "ecole",
+      "label": "Jouer avec ses camarades",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-036-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-036",
+      "category": "ecole",
+      "label": "Jouer avec ses camarades",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-036-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-037",
+      "category": "ecole",
+      "label": "Manger à la cantine",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-037-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-037",
+      "category": "ecole",
+      "label": "Manger à la cantine",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-037-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-038",
+      "category": "ecole",
+      "label": "Faire du sport à l’école",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-038-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-038",
+      "category": "ecole",
+      "label": "Faire du sport à l’école",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-038-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-039",
+      "category": "ecole",
+      "label": "Faire ses devoirs",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-039-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-039",
+      "category": "ecole",
+      "label": "Faire ses devoirs",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-039-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-039",
+      "category": "ecole",
+      "label": "Faire ses devoirs",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-039-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-040",
+      "category": "ecole",
+      "label": "Rentrer de l’école",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-040-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-040",
+      "category": "ecole",
+      "label": "Rentrer de l’école",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-040-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-040",
+      "category": "ecole",
+      "label": "Rentrer de l’école",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-040-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-041",
+      "category": "maison",
+      "label": "Se réveiller",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-041-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-041",
+      "category": "maison",
+      "label": "Se réveiller",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-041-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-041",
+      "category": "maison",
+      "label": "Se réveiller",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-041-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-042",
+      "category": "maison",
+      "label": "Faire son lit",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-042-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-042",
+      "category": "maison",
+      "label": "Faire son lit",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-042-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-043",
+      "category": "habillage",
+      "label": "Mettre son t-shirt",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-043",
+      "category": "habillage",
+      "label": "Mettre son t-shirt",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-044",
+      "category": "habillage",
+      "label": "Mettre son pantalon",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-044",
+      "category": "habillage",
+      "label": "Mettre son pantalon",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-044",
+      "category": "habillage",
+      "label": "Mettre son pantalon",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-045",
+      "category": "habillage",
+      "label": "Mettre ses chaussettes",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-045-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-045",
+      "category": "habillage",
+      "label": "Mettre ses chaussettes",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-045-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-045",
+      "category": "habillage",
+      "label": "Mettre ses chaussettes",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-045-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-046",
+      "category": "habillage",
+      "label": "Mettre ses chaussures",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-046-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-046",
+      "category": "habillage",
+      "label": "Mettre ses chaussures",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-046-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-046",
+      "category": "habillage",
+      "label": "Mettre ses chaussures",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-046-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-047",
+      "category": "habillage",
+      "label": "Mettre son manteau",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-047-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-047",
+      "category": "habillage",
+      "label": "Mettre son manteau",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-047-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-049",
+      "category": "repas",
+      "label": "Boire de l’eau",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-049-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-049",
+      "category": "repas",
+      "label": "Boire de l’eau",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-049-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-049",
+      "category": "repas",
+      "label": "Boire de l’eau",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-049-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-050",
+      "category": "maison",
+      "label": "Mettre la table",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-050-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-050",
+      "category": "maison",
+      "label": "Mettre la table",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-050-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-050",
+      "category": "maison",
+      "label": "Mettre la table",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-050-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-051",
+      "category": "maison",
+      "label": "Débarrasser la table",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-051-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-051",
+      "category": "maison",
+      "label": "Débarrasser la table",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-051-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-051",
+      "category": "maison",
+      "label": "Débarrasser la table",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-051-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-053",
+      "category": "maison",
+      "label": "Ranger ses jouets",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-053-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-053",
+      "category": "maison",
+      "label": "Ranger ses jouets",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-053-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-054",
+      "category": "maison",
+      "label": "Ranger sa chambre",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-054-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-054",
+      "category": "maison",
+      "label": "Ranger sa chambre",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-054-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-054",
+      "category": "maison",
+      "label": "Ranger sa chambre",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-054-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-055",
+      "category": "loisirs",
+      "label": "Jouer aux cubes",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-055-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-055",
+      "category": "loisirs",
+      "label": "Jouer aux cubes",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-055-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-055",
+      "category": "loisirs",
+      "label": "Jouer aux cubes",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-055-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-056",
+      "category": "loisirs",
+      "label": "Faire un puzzle",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-056-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-056",
+      "category": "loisirs",
+      "label": "Faire un puzzle",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-056-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-056",
+      "category": "loisirs",
+      "label": "Faire un puzzle",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-056-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-057",
+      "category": "loisirs",
+      "label": "Lire une histoire",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-057-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-057",
+      "category": "loisirs",
+      "label": "Lire une histoire",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-057-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-058",
+      "category": "habillage",
+      "label": "Mettre son pyjama",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-058-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-058",
+      "category": "habillage",
+      "label": "Mettre son pyjama",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-058-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-059",
+      "category": "maison",
+      "label": "Se coucher",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-059-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-059",
+      "category": "maison",
+      "label": "Se coucher",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-059-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-059",
+      "category": "maison",
+      "label": "Se coucher",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-059-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-060",
+      "category": "maison",
+      "label": "Éteindre la lumière",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-060-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-060",
+      "category": "maison",
+      "label": "Éteindre la lumière",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-060-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-060",
+      "category": "maison",
+      "label": "Éteindre la lumière",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-060-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-086",
+      "category": "toilettes",
+      "label": "Baisser son pantalon",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-086-boy-light.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-086",
+      "category": "toilettes",
+      "label": "Baisser son pantalon",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-086-boy-dark.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-086",
+      "category": "toilettes",
+      "label": "Baisser son pantalon",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-086-girl-light.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-086",
+      "category": "toilettes",
+      "label": "Baisser son pantalon",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-086-girl-dark.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-087",
+      "category": "toilettes",
+      "label": "S’asseoir sur les toilettes",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-087-boy-light.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-087",
+      "category": "toilettes",
+      "label": "S’asseoir sur les toilettes",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-087-boy-dark.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-087",
+      "category": "toilettes",
+      "label": "S’asseoir sur les toilettes",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-087-girl-light.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-087",
+      "category": "toilettes",
+      "label": "S’asseoir sur les toilettes",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-087-girl-dark.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-088",
+      "category": "toilettes",
+      "label": "Utiliser le papier toilette",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-088-boy-light.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-088",
+      "category": "toilettes",
+      "label": "Utiliser le papier toilette",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-088-boy-dark.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-088",
+      "category": "toilettes",
+      "label": "Utiliser le papier toilette",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-088-girl-light.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-088",
+      "category": "toilettes",
+      "label": "Utiliser le papier toilette",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-088-girl-dark.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-089",
+      "category": "toilettes",
+      "label": "S’essuyer après être allé aux toilettes",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-089-boy-light.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-089",
+      "category": "toilettes",
+      "label": "S’essuyer après être allé aux toilettes",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-089-boy-dark.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-089",
+      "category": "toilettes",
+      "label": "S’essuyer après être allé aux toilettes",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-089-girl-light.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-089",
+      "category": "toilettes",
+      "label": "S’essuyer après être allé aux toilettes",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-089-girl-dark.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-090",
+      "category": "toilettes",
+      "label": "Remonter son pantalon",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-090-boy-light.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-090",
+      "category": "toilettes",
+      "label": "Remonter son pantalon",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-090-boy-dark.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-090",
+      "category": "toilettes",
+      "label": "Remonter son pantalon",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-090-girl-light.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-090",
+      "category": "toilettes",
+      "label": "Remonter son pantalon",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-090-girl-dark.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-091",
+      "category": "hygiene",
+      "label": "Se sécher avec une serviette",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-091-boy-light.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-091",
+      "category": "hygiene",
+      "label": "Se sécher avec une serviette",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-091-boy-dark.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-091",
+      "category": "hygiene",
+      "label": "Se sécher avec une serviette",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-091-girl-light.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-091",
+      "category": "hygiene",
+      "label": "Se sécher avec une serviette",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-091-girl-dark.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-092",
+      "category": "hygiene",
+      "label": "Mettre du déodorant",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-092-boy-light.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-092",
+      "category": "hygiene",
+      "label": "Mettre du déodorant",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-092-boy-dark.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-092",
+      "category": "hygiene",
+      "label": "Mettre du déodorant",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-092-girl-light.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-092",
+      "category": "hygiene",
+      "label": "Mettre du déodorant",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-092-girl-dark.png",
+      "status": "replaced_by_neutral_shared"
+    },
+    {
+      "id": "CF-093",
+      "category": "habillage",
+      "label": "S’habiller complètement",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-093-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-093",
+      "category": "habillage",
+      "label": "S’habiller complètement",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-093-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-093",
+      "category": "habillage",
+      "label": "S’habiller complètement",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-093-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-093",
+      "category": "habillage",
+      "label": "S’habiller complètement",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-093-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-094",
+      "category": "repas",
+      "label": "Manger",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-094-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-094",
+      "category": "repas",
+      "label": "Manger",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-094-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-094",
+      "category": "repas",
+      "label": "Manger",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-094-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-094",
+      "category": "repas",
+      "label": "Manger",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-094-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-095",
+      "category": "repas",
+      "label": "Boire",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-095",
+      "category": "repas",
+      "label": "Boire",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-095",
+      "category": "repas",
+      "label": "Boire",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-095",
+      "category": "repas",
+      "label": "Boire",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-096",
+      "category": "repas",
+      "label": "Repas terminé",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-096-boy-light.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-096",
+      "category": "repas",
+      "label": "Repas terminé",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-096-boy-dark.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-096",
+      "category": "repas",
+      "label": "Repas terminé",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-096-girl-light.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-096",
+      "category": "repas",
+      "label": "Repas terminé",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-096-girl-dark.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-097",
+      "category": "ecole",
+      "label": "Travailler en classe",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-097-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-097",
+      "category": "ecole",
+      "label": "Travailler en classe",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-097-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-097",
+      "category": "ecole",
+      "label": "Travailler en classe",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-097-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-097",
+      "category": "ecole",
+      "label": "Travailler en classe",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-097-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-098",
+      "category": "ecole",
+      "label": "Ranger son cartable",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-098-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-098",
+      "category": "ecole",
+      "label": "Ranger son cartable",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-098-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-098",
+      "category": "ecole",
+      "label": "Ranger son cartable",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-098-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-098",
+      "category": "ecole",
+      "label": "Ranger son cartable",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-098-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-099",
+      "category": "loisirs",
+      "label": "Jouer librement",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-099-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-099",
+      "category": "loisirs",
+      "label": "Jouer librement",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-099-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-099",
+      "category": "loisirs",
+      "label": "Jouer librement",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-099-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-099",
+      "category": "loisirs",
+      "label": "Jouer librement",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-099-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-100",
+      "category": "loisirs",
+      "label": "Regarder un écran",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-100-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-100",
+      "category": "loisirs",
+      "label": "Regarder un écran",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-100-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-100",
+      "category": "loisirs",
+      "label": "Regarder un écran",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-100-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-100",
+      "category": "loisirs",
+      "label": "Regarder un écran",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-100-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-101",
+      "category": "loisirs",
+      "label": "Faire du sport",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-101-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-101",
+      "category": "loisirs",
+      "label": "Faire du sport",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-101-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-101",
+      "category": "loisirs",
+      "label": "Faire du sport",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-101-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-101",
+      "category": "loisirs",
+      "label": "Faire du sport",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-101-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-102",
+      "category": "loisirs",
+      "label": "Écouter de la musique",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-102-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-102",
+      "category": "loisirs",
+      "label": "Écouter de la musique",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-102-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-102",
+      "category": "loisirs",
+      "label": "Écouter de la musique",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-102-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-102",
+      "category": "loisirs",
+      "label": "Écouter de la musique",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-102-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-103",
+      "category": "emotions",
+      "label": "Être content",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-103-boy-light.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-103",
+      "category": "emotions",
+      "label": "Être content",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-103-boy-dark.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-103",
+      "category": "emotions",
+      "label": "Être content",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-103-girl-light.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-103",
+      "category": "emotions",
+      "label": "Être content",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-103-girl-dark.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-104",
+      "category": "emotions",
+      "label": "Être triste",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-104-boy-light.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-104",
+      "category": "emotions",
+      "label": "Être triste",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-104-boy-dark.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-104",
+      "category": "emotions",
+      "label": "Être triste",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-104-girl-light.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-104",
+      "category": "emotions",
+      "label": "Être triste",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-104-girl-dark.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-105",
+      "category": "emotions",
+      "label": "Être en colère",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-105-boy-light.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-105",
+      "category": "emotions",
+      "label": "Être en colère",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-105-boy-dark.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-105",
+      "category": "emotions",
+      "label": "Être en colère",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-105-girl-light.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-105",
+      "category": "emotions",
+      "label": "Être en colère",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-105-girl-dark.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-106",
+      "category": "emotions",
+      "label": "Être fatigué",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-106-boy-light.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-106",
+      "category": "emotions",
+      "label": "Être fatigué",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-106-boy-dark.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-106",
+      "category": "emotions",
+      "label": "Être fatigué",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-106-girl-light.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-106",
+      "category": "emotions",
+      "label": "Être fatigué",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-106-girl-dark.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-107",
+      "category": "emotions",
+      "label": "Être calme",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-107-boy-light.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-107",
+      "category": "emotions",
+      "label": "Être calme",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-107-boy-dark.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-107",
+      "category": "emotions",
+      "label": "Être calme",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-107-girl-light.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-107",
+      "category": "emotions",
+      "label": "Être calme",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/emotions/cf-107-girl-dark.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-108",
+      "category": "maison",
+      "label": "Plier les vêtements",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-108-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-108",
+      "category": "maison",
+      "label": "Plier les vêtements",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-108-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-108",
+      "category": "maison",
+      "label": "Plier les vêtements",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-108-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-108",
+      "category": "maison",
+      "label": "Plier les vêtements",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-108-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-109",
+      "category": "maison",
+      "label": "Jeter quelque chose à la poubelle",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-109-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-109",
+      "category": "maison",
+      "label": "Jeter quelque chose à la poubelle",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-109-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-109",
+      "category": "maison",
+      "label": "Jeter quelque chose à la poubelle",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-109-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-109",
+      "category": "maison",
+      "label": "Jeter quelque chose à la poubelle",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-109-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-110",
+      "category": "maison",
+      "label": "Nettoyer la table",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-110",
+      "category": "maison",
+      "label": "Nettoyer la table",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-110",
+      "category": "maison",
+      "label": "Nettoyer la table",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-110",
+      "category": "maison",
+      "label": "Nettoyer la table",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-111",
+      "category": "deplacements",
+      "label": "Attacher sa ceinture",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-111-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-111",
+      "category": "deplacements",
+      "label": "Attacher sa ceinture",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-111-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-111",
+      "category": "deplacements",
+      "label": "Attacher sa ceinture",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-111-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-111",
+      "category": "deplacements",
+      "label": "Attacher sa ceinture",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-111-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-112",
+      "category": "deplacements",
+      "label": "Monter en voiture",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-112-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-112",
+      "category": "deplacements",
+      "label": "Monter en voiture",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-112-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-112",
+      "category": "deplacements",
+      "label": "Monter en voiture",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-112-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-112",
+      "category": "deplacements",
+      "label": "Monter en voiture",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-112-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-113",
+      "category": "deplacements",
+      "label": "Descendre de voiture",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-113-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-113",
+      "category": "deplacements",
+      "label": "Descendre de voiture",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-113-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-113",
+      "category": "deplacements",
+      "label": "Descendre de voiture",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-113-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-113",
+      "category": "deplacements",
+      "label": "Descendre de voiture",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-113-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-114",
+      "category": "deplacements",
+      "label": "Traverser avec un adulte",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-114-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-114",
+      "category": "deplacements",
+      "label": "Traverser avec un adulte",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-114-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-114",
+      "category": "deplacements",
+      "label": "Traverser avec un adulte",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-114-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-114",
+      "category": "deplacements",
+      "label": "Traverser avec un adulte",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-114-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-115",
+      "category": "deplacements",
+      "label": "Attendre le bus",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-115-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-115",
+      "category": "deplacements",
+      "label": "Attendre le bus",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-115-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-115",
+      "category": "deplacements",
+      "label": "Attendre le bus",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-115-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-115",
+      "category": "deplacements",
+      "label": "Attendre le bus",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-115-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-116",
+      "category": "deplacements",
+      "label": "Monter dans le bus",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-116-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-116",
+      "category": "deplacements",
+      "label": "Monter dans le bus",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-116-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-116",
+      "category": "deplacements",
+      "label": "Monter dans le bus",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-116-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-116",
+      "category": "deplacements",
+      "label": "Monter dans le bus",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-116-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-117",
+      "category": "securite",
+      "label": "S’arrêter au signal",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-117-boy-light.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-117",
+      "category": "securite",
+      "label": "S’arrêter au signal",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-117-boy-dark.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-117",
+      "category": "securite",
+      "label": "S’arrêter au signal",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-117-girl-light.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-117",
+      "category": "securite",
+      "label": "S’arrêter au signal",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-117-girl-dark.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-118",
+      "category": "securite",
+      "label": "Attendre son tour",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-118-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-118",
+      "category": "securite",
+      "label": "Attendre son tour",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-118-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-118",
+      "category": "securite",
+      "label": "Attendre son tour",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-118-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-118",
+      "category": "securite",
+      "label": "Attendre son tour",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-118-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-119",
+      "category": "securite",
+      "label": "Tenir la main d’un adulte",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-119-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-119",
+      "category": "securite",
+      "label": "Tenir la main d’un adulte",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-119-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-119",
+      "category": "securite",
+      "label": "Tenir la main d’un adulte",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-119-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-119",
+      "category": "securite",
+      "label": "Tenir la main d’un adulte",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-119-girl-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-120",
+      "category": "securite",
+      "label": "Rester avec le groupe",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-120-boy-light.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-120",
+      "category": "securite",
+      "label": "Rester avec le groupe",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-120-boy-dark.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-120",
+      "category": "securite",
+      "label": "Rester avec le groupe",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-120-girl-light.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-120",
+      "category": "securite",
+      "label": "Rester avec le groupe",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-120-girl-dark.png",
+      "status": "excluded",
+      "exclusionReason": "User request"
+    },
+    {
+      "id": "CF-121",
+      "category": "securite",
+      "label": "Marcher sans courir",
+      "profile": "boy_light_color",
+      "gender": "boy",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-121-boy-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-121",
+      "category": "securite",
+      "label": "Marcher sans courir",
+      "profile": "boy_dark_color",
+      "gender": "boy",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-121-boy-dark.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-121",
+      "category": "securite",
+      "label": "Marcher sans courir",
+      "profile": "girl_light_color",
+      "gender": "girl",
+      "skin": "light",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-121-girl-light.png",
+      "status": "generated"
+    },
+    {
+      "id": "CF-121",
+      "category": "securite",
+      "label": "Marcher sans courir",
+      "profile": "girl_dark_color",
+      "gender": "girl",
+      "skin": "dark",
+      "target": "pictograms/assets/famille_quotidien/rebuild/securite/cf-121-girl-dark.png",
+      "status": "generated"
+    }
+  ],
+  "buildRules": {
+    "profileMatrix": [
+      "boy_light_color",
+      "boy_dark_color",
+      "girl_light_color",
+      "girl_dark_color"
+    ],
+    "localFilesOnly": true,
+    "offlineReady": true,
+    "assetFormat": "PNG, square, white background, optimized to 384x384",
+    "imageStyle": "Match the existing simple, outlined, friendly pastel pictogram style.",
+    "shower": {
+      "id": "CF-002",
+      "action": "reuse existing image; expose under all four filters"
+    },
+    "noPartialIntegration": true
+  },
+  "completedImages": 228,
+  "remainingImages": 0,
+  "firstBatch": {
+    "scene": "CF-005 Se brosser les dents",
+    "profiles": [
+      "girl_light_color",
+      "girl_dark_color"
+    ],
+    "commit": "3fc41a3eb9724f6e0abc66989fbbf93a81db215c"
+  },
+  "batches": [
+    {
+      "sceneIds": [
+        "CF-006",
+        "CF-007"
+      ],
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "commit": "8b0a3ab358fd37e3b0506976096c6e069afa28ee"
+    },
+    {
+      "sceneIds": [
+        "CF-009"
+      ],
+      "profiles": [
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "commit": "d54a7264b5c62453fa510221a71c15be41b1c58"
+    },
+    {
+      "sceneIds": [
+        "CF-008",
+        "CF-010"
+      ],
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color"
+      ],
+      "commit": "17f3c9f385051f72018ad7a9c47da65aef76f2d0"
+    },
+    {
+      "sceneIds": [
+        "CF-011",
+        "CF-012"
+      ],
+      "profiles": [
+        "girl_light_color",
+        "girl_dark_color",
+        "boy_light_color",
+        "boy_dark_color"
+      ],
+      "commit": "4e534a7307075fc04982ca3622ae7cd5ebfc267f"
+    },
+    {
+      "sceneIds": [
+        "CF-016",
+        "CF-019"
+      ],
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "commit": "9b35663cf07fb307834f019938946849e28f418d"
+    },
+    {
+      "sceneIds": [
+        "CF-001",
+        "CF-003"
+      ],
+      "profiles": [
+        "neutral",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "commit": "d2739940010c4bc7e37394b543bd35d7bdcfbc96"
+    },
+    {
+      "sceneIds": [
+        "CF-004",
+        "CF-020"
+      ],
+      "profiles": [
+        "neutral",
+        "neutral"
+      ],
+      "commit": "1519006f0dc8ef93cc2dd59588a16417467516b4"
+    },
+    {
+      "sceneIds": [
+        "CF-086",
+        "CF-087"
+      ],
+      "profiles": [
+        "neutral",
+        "neutral"
+      ],
+      "commit": "afde8351ecc0217221556212dc88bb0b60da6d6f"
+    },
+    {
+      "sceneIds": [
+        "CF-013",
+        "CF-014"
+      ],
+      "profiles": [
+        "girl_light_color",
+        "girl_dark_color",
+        "boy_light_color",
+        "boy_dark_color"
+      ],
+      "commit": "a99d6898ff8069f8fe0cad6283c97c693143a567"
+    },
+    {
+      "sceneIds": [
+        "CF-014",
+        "CF-015"
+      ],
+      "profiles": [
+        "girl_dark_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "commit": "8009ee952eb3b0fc7ec3646e9d9f21b6c315b9ae"
+    },
+    {
+      "sceneIds": [
+        "CF-088",
+        "CF-089",
+        "CF-090"
+      ],
+      "profiles": [
+        "neutral",
+        "neutral",
+        "neutral"
+      ],
+      "commit": "64e1e8fab1152169e27d5ff9ca5c39423fa3dcaa"
+    },
+    {
+      "sceneIds": [
+        "CF-086",
+        "CF-087",
+        "CF-091",
+        "CF-092"
+      ],
+      "profiles": [
+        "neutral",
+        "neutral",
+        "neutral",
+        "neutral"
+      ],
+      "commit": "8b5475730dd8cea4c0448f41846474cd46b77d57"
+    },
+    {
+      "sceneIds": [
+        "CF-017",
+        "CF-018"
+      ],
+      "profiles": [
+        "girl_light_color",
+        "girl_dark_color",
+        "boy_light_color",
+        "boy_dark_color"
+      ],
+      "commit": "845ea8da2a19a16eedcabe314d5f2b5f0bd47f9e"
+    }
+  ],
+  "neutralAssets": [
+    {
+      "id": "CF-001",
+      "category": "hygiene",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-001-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-004",
+      "category": "hygiene",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-004-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-020",
+      "category": "hygiene",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-020-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-091",
+      "category": "hygiene",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-091-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-092",
+      "category": "hygiene",
+      "target": "pictograms/assets/famille_quotidien/rebuild/hygiene/cf-092-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-086",
+      "category": "toilettes",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-086-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-087",
+      "category": "toilettes",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-087-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-088",
+      "category": "toilettes",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-088-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-089",
+      "category": "toilettes",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-089-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    },
+    {
+      "id": "CF-090",
+      "category": "toilettes",
+      "target": "pictograms/assets/famille_quotidien/rebuild/toilettes/cf-090-neutral.png",
+      "profiles": [
+        "boy_light_color",
+        "boy_dark_color",
+        "girl_light_color",
+        "girl_dark_color"
+      ],
+      "status": "generated"
+    }
+  ],
+  "pilotRuns": [
+    {
+      "date": "2026-10-03",
+      "sceneId": "CF-021",
+      "label": "Préparer son cartable",
+      "imageCount": 3,
+      "durationSeconds": 79,
+      "resolution": "384x384",
+      "visualCheck": "passed",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-021-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-021-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-021-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-022",
+        "CF-023"
+      ],
+      "imageCount": 4,
+      "generationSeconds": 120,
+      "revisionSeconds": 107,
+      "resolution": "384x384",
+      "visualCheck": "passed; dark variants edited from matching light-profile compositions",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-022-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-022-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-023-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-023-girl-light.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-024"
+      ],
+      "imageCount": 3,
+      "replacementCount": 1,
+      "generationAndRevisionSeconds": 211,
+      "resolution": "384x384",
+      "visualCheck": "passed; matched each skin-tone pair by editing from the light-profile base",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-024-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-024-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-024-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-024-girl-light.png"
+      ],
+      "replacements": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-024-girl-light.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-025"
+      ],
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 105,
+      "resolution": "384x384",
+      "visualCheck": "passed; existing boy-light asset verified and copied, new skin variants matched by pair",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-025-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-025-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-025-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-025-girl-light.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-025.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-025-boy-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-026"
+      ],
+      "label": "Sortir sa trousse",
+      "category": "ecole",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 95,
+      "resolution": "384x384",
+      "visualCheck": "passed; source girl-light validated against label; three variants reviewed as a coherent set, clear open backpack and pencil case",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-026-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-026-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-026-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-026-girl-light.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-026.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-026-girl-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-027"
+      ],
+      "label": "Écrire",
+      "category": "ecole",
+      "imageCount": 2,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 60,
+      "resolution": "384x384",
+      "visualCheck": "passed; validated writing action with pencil on open notebook; girl variants retain composition and distinct skin profiles",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-027-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-027-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-027-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-027.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-027-boy-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-028"
+      ],
+      "label": "Lire",
+      "category": "ecole",
+      "imageCount": 2,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 60,
+      "resolution": "384x384",
+      "visualCheck": "passed; child clearly attends to open picture book; matched boy variants retain table, book stack, and pencil cup",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-028-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-028-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-028-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-028.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-028-girl-dark.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-029"
+      ],
+      "label": "Écouter l’enseignante",
+      "category": "ecole",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 90,
+      "resolution": "384x384",
+      "visualCheck": "passed; listening action readable through child gaze and listening posture while teacher speaks; three generated variants matched against validated source",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-029-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-029-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-029-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-029-boy-light.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-029.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-029-boy-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-030"
+      ],
+      "label": "Lever la main",
+      "category": "ecole",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 80,
+      "resolution": "384x384",
+      "visualCheck": "passed; raised hand clearly visible, teacher and desk composition held across boy and girl variants",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-030-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-030-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-030-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-030-girl-light.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-030.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-030-girl-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-031"
+      ],
+      "label": "Demander de l’aide",
+      "category": "ecole",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 90,
+      "resolution": "384x384",
+      "visualCheck": "passed; teacher points to exercise and child signals uncertainty, clear help-seeking scene across all variants",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-031-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-031-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-031-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-031-boy-light.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-031.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-031-boy-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-032"
+      ],
+      "label": "Découper",
+      "category": "ecole",
+      "imageCount": 2,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 60,
+      "resolution": "384x384",
+      "visualCheck": "passed; rounded scissors visibly cut paper and the reused girl-dark source matches the action",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-032-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-032-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-032-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-032.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-032-girl-dark.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-033"
+      ],
+      "label": "Coller",
+      "category": "ecole",
+      "imageCount": 2,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 60,
+      "resolution": "384x384",
+      "visualCheck": "passed; glue stick visibly applies adhesive to a paper shape, teacher and table details remain consistent",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-033-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-033-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-033-boy-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-033.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-033-boy-dark.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-034"
+      ],
+      "label": "Dessiner",
+      "category": "ecole",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 85,
+      "resolution": "384x384",
+      "visualCheck": "passed; drawing action and rainbow subject clearly readable; generated boy and girl-dark profiles match validated girl-light scene",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-034-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-034-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-034-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-034-girl-light.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-034.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-034-girl-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-035"
+      ],
+      "label": "Aller en récréation",
+      "category": "ecole",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 95,
+      "resolution": "384x384",
+      "visualCheck": "passed; foreground child clearly exits classroom toward playground, backgrounds and profile variants reviewed",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-035-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-035-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-035-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-035-boy-light.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-035.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-035-boy-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-036"
+      ],
+      "label": "Jouer avec ses camarades",
+      "category": "ecole",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 90,
+      "resolution": "384x384",
+      "visualCheck": "passed; cooperative ball play is clear in all profile versions; each requested profile is represented by the left child",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-036-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-036-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-036-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-036-girl-light.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-036.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-036-girl-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-037"
+      ],
+      "label": "Manger à la cantine",
+      "category": "ecole",
+      "imageCount": 2,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 55,
+      "resolution": "384x384",
+      "visualCheck": "passed; child eating with fork over cafeteria tray remains clear in both girl variants",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-037-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-037-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-037-boy-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-037.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-037-boy-dark.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-038"
+      ],
+      "label": "Faire du sport à l’école",
+      "category": "ecole",
+      "imageCount": 2,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 55,
+      "resolution": "384x384",
+      "visualCheck": "passed; child visibly jumps through gym hoop with coach encouragement; paired boy variants reviewed",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-038-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-038-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-038-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-038.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-038-girl-dark.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-039"
+      ],
+      "imageCount": 3,
+      "replacementCount": 1,
+      "generationAndRevisionSeconds": 120,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child writing homework. Existing boy-light slot was mislabeled in appearance (dark-skinned boy) and was corrected with a new light-skinned boy.",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-039-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-039-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-039-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-039-girl-dark.png"
+      ],
+      "replacements": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-039-boy-light.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-040"
+      ],
+      "label": "Rentrer de l’école",
+      "category": "ecole",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 90,
+      "resolution": "384x384",
+      "visualCheck": "passed; child clearly returns home through open doorway with school backpack and adult greeting",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-040-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-040-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-040-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-040-girl-light.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/ecole/cf-040.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/ecole/cf-040-girl-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-041"
+      ],
+      "label": "Se réveiller",
+      "category": "maison",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 90,
+      "resolution": "384x384",
+      "visualCheck": "passed; waking action is clear with raised arms in bed and morning sun; four profiles match the label",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-041-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-041-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-041-girl-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-041-boy-light.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-041.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-041-boy-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-042"
+      ],
+      "label": "Faire son lit",
+      "category": "maison",
+      "imageCount": 2,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 80,
+      "resolution": "384x384",
+      "visualCheck": "passed; child visibly smooths and arranges bed cover in both boy variants, girl-dark source checked",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-042-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-042-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-042-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-042.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-042-girl-dark.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-043"
+      ],
+      "label": "Mettre son t-shirt",
+      "category": "habillage",
+      "imageCount": 2,
+      "replacementCount": 2,
+      "generationAndRevisionSeconds": 125,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four children are fully dressed and clearly finish putting on the T-shirt by pulling down its hem; boy-light and boy-dark source pictures showing a raised shirt were replaced",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-girl-dark.png"
+      ],
+      "replacements": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-043-boy-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-044"
+      ],
+      "label": "Mettre son pantalon",
+      "category": "habillage",
+      "imageCount": 3,
+      "replacementCount": 1,
+      "generationAndRevisionSeconds": 180,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four fully dressed children hold the trousers at the waistband with upward motion arrows; previous girl-light source matched the action but was replaced for consistent four-profile styling",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-girl-dark.png"
+      ],
+      "replacements": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-044-girl-light.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-045"
+      ],
+      "label": "Mettre ses chaussettes",
+      "category": "habillage",
+      "imageCount": 3,
+      "replacementCount": 1,
+      "generationAndRevisionSeconds": 180,
+      "resolution": "384x384",
+      "visualCheck": "passed; the child has one sock on and pulls the second sock onto the raised foot; all four profiles show the same clear action",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-045-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-045-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-045-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-045-girl-dark.png"
+      ],
+      "replacements": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-045-boy-light.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-046"
+      ],
+      "label": "Mettre ses chaussures",
+      "category": "habillage",
+      "imageCount": 3,
+      "replacementCount": 1,
+      "generationAndRevisionSeconds": 180,
+      "resolution": "384x384",
+      "visualCheck": "passed; the seated child wears one shoe and uses both hands to fit the second shoe; four profile variants follow the same action",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-046-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-046-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-046-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-046-girl-dark.png"
+      ],
+      "replacements": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-046-girl-light.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-047"
+      ],
+      "label": "Mettre son manteau",
+      "category": "habillage",
+      "imageCount": 2,
+      "reusedCount": 2,
+      "generationAndRevisionSeconds": 115,
+      "resolution": "384x384",
+      "visualCheck": "passed; the child holds the mint coat open and extends one arm into a sleeve; all four profile variants show the same dressing action",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-047-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-047-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-047-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-047-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-047-boy-light.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-047-boy-light.png"
+        },
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-047.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-047-boy-dark.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-049"
+      ],
+      "label": "Boire de l’eau",
+      "category": "repas",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 86,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child holding a clear glass to the mouth and drinking water; profile differences checked",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-049-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-049-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-049-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-049-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-049.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/repas/cf-049-boy-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-050"
+      ],
+      "label": "Mettre la table",
+      "category": "maison",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 90,
+      "resolution": "384x384",
+      "visualCheck": "passed; the child places a plate and a spoon on the table; all four profiles checked against the exact label",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-050-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-050-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-050-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-050-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-050.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-050-girl-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-051"
+      ],
+      "label": "Débarrasser la table",
+      "category": "maison",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 90,
+      "resolution": "384x384",
+      "visualCheck": "passed; the child carries a used plate away from the dining table to clear it; all four profiles checked against the label",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-051-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-051-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-051-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-051-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-051.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-051-boy-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-053"
+      ],
+      "label": "Ranger ses jouets",
+      "category": "maison",
+      "imageCount": 2,
+      "reusedCount": 2,
+      "generationAndRevisionSeconds": 61,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles place a toy block into the storage bin; the two reused boy references were verified for action and skin-tone labels",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-053-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-053-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-053-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-053-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-053-boy-light.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-053-boy-light.png"
+        },
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-053.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-053-boy-dark.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-054"
+      ],
+      "label": "Ranger sa chambre",
+      "category": "maison",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 92,
+      "resolution": "384x384",
+      "visualCheck": "passed; the child returns a book to the shelf in a tidy bedroom; all four profiles show the same room-organizing action",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-054-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-054-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-054-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-054-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-054.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-054-girl-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-055"
+      ],
+      "label": "Jouer aux cubes",
+      "category": "loisirs",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 83,
+      "resolution": "384x384",
+      "visualCheck": "passed; the child stacks colorful toy blocks into a tower; all four profiles show the same play action",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-055-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-055-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-055-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-055-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-055.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-055-boy-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-056"
+      ],
+      "label": "Faire un puzzle",
+      "category": "loisirs",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 170,
+      "resolution": "384x384",
+      "visualCheck": "passed; all profiles show the child fitting a puzzle piece into the board",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-056-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-056-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-056-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-056-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-056.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-056-girl-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-057"
+      ],
+      "label": "Lire une histoire",
+      "category": "loisirs",
+      "imageCount": 2,
+      "reusedCount": 1,
+      "replacementCount": 1,
+      "generationAndRevisionSeconds": 170,
+      "resolution": "384x384",
+      "visualCheck": "passed; adult and child share a picture book; the boy-light source was dark-skinned and replaced with a light-skinned child, while boy-dark was verified",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-057-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-057-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-057-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-057-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-057.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-057-boy-dark.png"
+        }
+      ],
+      "replacements": [
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-057-boy-light.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-058"
+      ],
+      "label": "Mettre son pyjama",
+      "category": "habillage",
+      "imageCount": 2,
+      "reusedCount": 2,
+      "generationAndRevisionSeconds": 240,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four children wear full pajamas; each is putting on the same star-and-moon pajama top",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-058-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-058-boy-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-058-girl-light.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-058-girl-light.png"
+        },
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-058.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/habillage/cf-058-girl-dark.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-059"
+      ],
+      "label": "Se coucher",
+      "category": "maison",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 240,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four children are tucked into bed under the same star blanket at night",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-059-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-059-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-059-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-059.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-059-boy-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-060"
+      ],
+      "label": "Éteindre la lumière",
+      "category": "maison",
+      "imageCount": 3,
+      "reusedCount": 1,
+      "generationAndRevisionSeconds": 240,
+      "resolution": "384x384",
+      "visualCheck": "passed; each child clearly reaches to pull the bedside lamp switch to turn off the light",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-060-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-060-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-060-girl-dark.png"
+      ],
+      "reusedAssets": [
+        {
+          "source": "pictograms/assets/famille_quotidien/maison/cf-060.png",
+          "target": "pictograms/assets/famille_quotidien/rebuild/maison/cf-060-girl-light.png"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-093"
+      ],
+      "label": "S’habiller complètement",
+      "category": "habillage",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 340,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show a fully dressed child fastening the front buttons of a shirt, with trousers and shoes",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-093-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-093-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-093-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/habillage/cf-093-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-094"
+      ],
+      "label": "Manger",
+      "category": "repas",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 340,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show a child seated at a table eating from a plate with a spoon",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-094-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-094-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-094-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-094-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-095"
+      ],
+      "label": "Boire",
+      "category": "repas",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 340,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles clearly show a child raising a glass to drink",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/repas/cf-095-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-097"
+      ],
+      "label": "Travailler en classe",
+      "category": "ecole",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 380,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child writing classwork in an open notebook at a school desk with a classroom board",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-097-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-097-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-097-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-097-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-098"
+      ],
+      "label": "Ranger son cartable",
+      "category": "ecole",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 380,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child placing notebooks into an open school backpack",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-098-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-098-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-098-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/ecole/cf-098-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-099"
+      ],
+      "label": "Jouer librement",
+      "category": "loisirs",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 380,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child playing freely on the floor and stacking colorful toy blocks",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-099-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-099-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-099-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-099-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-100"
+      ],
+      "label": "Regarder un écran",
+      "category": "loisirs",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show a child seated on a sofa looking at a handheld tablet",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-100-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-100-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-100-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-100-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-101"
+      ],
+      "label": "Faire du sport",
+      "category": "loisirs",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show a child running and kicking a soccer ball",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-101-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-101-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-101-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-101-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-102"
+      ],
+      "label": "Écouter de la musique",
+      "category": "loisirs",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show a child wearing headphones and listening to music, with musical notes",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-102-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-102-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-102-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/loisirs/cf-102-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-108"
+      ],
+      "label": "Plier les vêtements",
+      "category": "maison",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child folding a shirt on a table beside a stack of folded clothes",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-108-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-108-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-108-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-108-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-109"
+      ],
+      "label": "Jeter quelque chose à la poubelle",
+      "category": "maison",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child placing crumpled paper into an open wastebasket",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-109-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-109-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-109-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-109-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "sceneIds": [
+        "CF-110"
+      ],
+      "label": "Nettoyer la table",
+      "category": "maison",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child wiping a visible tabletop with a cloth",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/maison/cf-110-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "sceneIds": [
+        "CF-111"
+      ],
+      "label": "Attacher sa ceinture",
+      "category": "deplacements",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four labeled profiles show a child fastening a shoulder-and-lap seat belt in the back seat, with buckle visible",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-111-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-111-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-111-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-111-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "sceneIds": [
+        "CF-112"
+      ],
+      "label": "Monter en voiture",
+      "category": "deplacements",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four labeled profiles show the child climbing into the passenger seat through the open car door",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-112-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-112-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-112-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-112-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "sceneIds": [
+        "CF-113"
+      ],
+      "label": "Descendre de voiture",
+      "category": "deplacements",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four labeled profiles show the child stepping out through the open car door with one foot on the ground",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-113-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-113-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-113-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-113-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "sceneIds": [
+        "CF-114"
+      ],
+      "label": "Traverser avec un adulte",
+      "category": "deplacements",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show a child holding an adult's hand while crossing the marked pedestrian crosswalk",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-114-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-114-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-114-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-114-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "sceneIds": [
+        "CF-115"
+      ],
+      "label": "Attendre le bus",
+      "category": "deplacements",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child waiting beside a visible bus-stop sign behind the curb",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-115-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-115-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-115-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-115-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "sceneIds": [
+        "CF-116"
+      ],
+      "label": "Monter dans le bus",
+      "category": "deplacements",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child boarding through the open bus door, stepping onto the first stair and holding the rail",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-116-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-116-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-116-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/deplacements/cf-116-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "sceneIds": [
+        "CF-118"
+      ],
+      "label": "Attendre son tour",
+      "category": "securite",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show a child waiting in line while another child uses the slide",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-118-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-118-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-118-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-118-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "sceneIds": [
+        "CF-119"
+      ],
+      "label": "Tenir la main d’un adulte",
+      "category": "securite",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show a child holding the adult's hand while walking on the sidewalk",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-119-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-119-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-119-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-119-girl-dark.png"
+      ]
+    },
+    {
+      "date": "2026-10-04",
+      "sceneIds": [
+        "CF-121"
+      ],
+      "label": "Marcher sans courir",
+      "category": "securite",
+      "imageCount": 4,
+      "reusedCount": 0,
+      "generationAndRevisionSeconds": 350,
+      "resolution": "384x384",
+      "visualCheck": "passed; all four profiles show the child walking calmly with a regular stride and no running cues",
+      "assets": [
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-121-boy-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-121-boy-dark.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-121-girl-light.png",
+        "pictograms/assets/famille_quotidien/rebuild/securite/cf-121-girl-dark.png"
+      ]
+    }
+  ],
+  "originalNewImageCount": 260,
+  "excludedImageCount": 32,
+  "exclusions": {
+    "date": "2026-10-03",
+    "reason": "User request",
+    "imageCount": 32,
+    "scenes": [
+      {
+        "id": "CF-103",
+        "label": "Être content",
+        "category": "emotions"
+      },
+      {
+        "id": "CF-104",
+        "label": "Être triste",
+        "category": "emotions"
+      },
+      {
+        "id": "CF-105",
+        "label": "Être en colère",
+        "category": "emotions"
+      },
+      {
+        "id": "CF-106",
+        "label": "Être fatigué",
+        "category": "emotions"
+      },
+      {
+        "id": "CF-107",
+        "label": "Être calme",
+        "category": "emotions"
+      },
+      {
+        "id": "CF-117",
+        "label": "S’arrêter au signal",
+        "category": "securite"
+      },
+      {
+        "id": "CF-120",
+        "label": "Rester avec le groupe",
+        "category": "securite"
+      },
+      {
+        "id": "CF-096",
+        "label": "Repas terminé",
+        "category": "repas"
+      }
+    ]
+  }
+}
